@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.sobre{
+    padding: 30px;
+}
+
+.sobre p{
+    width: 50%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
