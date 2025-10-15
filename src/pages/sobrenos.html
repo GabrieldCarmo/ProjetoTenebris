@@ -4,33 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/sobrenos.css">
     <title>Tenebris | Sobre nós</title>
 </head>
 
 <body>
     <header>
+        <!-- Botão do menu hambúrguer -->
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+            ☰
+        </button>
+
+        <!-- Menu de navegação -->
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
         <img src="" alt="Logo">
         <h1>Tenebris</h1>
     </header>
 
     <section class="sobrenos">
         <h1>Sobre Tenebris</h1>
-        <p>Tenebris nasceu de uma paixão compartilhada pelo cinema de terror e pela programação web. Este projeto foi
-            desenvolvido como trabalho de conclusão da disciplina de Programação Web no ensino médio, unindo cinco
-            estudantes determinados a criar algo memorável.
-
-            Durante meses de desenvolvimento, cada membro da equipe contribuiu com suas habilidades únicas,
-            transformando a ideia inicial em uma plataforma completa dedicada às franquias mais aterrorizantes do
-            cinema. De reuniões após as aulas a noites de código, cada linha foi escrita com dedicação e paixão pelo que
-            fazemos.
-
-            O nome "Tenebris" vem do latim, significando "trevas" ou "escuridão" - uma homenagem perfeita ao gênero que
-            tanto amamos. Nosso objetivo foi criar não apenas um catálogo de filmes, mas uma experiência imersiva que
-            captura a essência do terror cinematográfico.
-
-            Este projeto representa não apenas uma nota final, mas o início de nossa jornada como desenvolvedores. Cada
-            desafio superado, cada bug corrigido e cada feature implementada nos ensinou lições valiosas sobre trabalho
-            em equipe, persistência e criatividade.</p>
+        <p>
+            Tenebris nasceu de uma iniciativa em uma aula de programação web, iniciada em 2025, no primeiro ano do
+            ensino médio.
+            Com a missão de unir sites e interfaces com um tema amado por todos do grupo - franquias dos clássicos de
+            terror.
+            O nome "Tenebris" vem do latim, significando "trevas" ou "escuridão" - uma homenagem perfeita ao gênero.
+            Nosso objetivo foi criar não apenas um catálogo de filmes, mas uma experiência imersiva que captura a
+            essência do terror cinematográfico, marcando o inicio na nossa jornada como programadores.</p>
 
         <section class="equipe">
             <h1>Conheça a Equipe</h1>
@@ -44,39 +51,52 @@
                 <button class="github"></button>
             </div>
             <div class="colaborador">
-                <img src="" alt="perfil-anna">
-                <h2>Anna Beatriz</h2>
-                <p>Frontend Developer</p>
+                <img src="" alt="perfil-santos">
+                <h2>Pedro Santos</h2>
+                <p>UI/UX Designer</p>
                 <button class="instagram"></button>
                 <button class="linkedin"></button>
                 <button class="github"></button>
             </div>
             <div class="colaborador">
-                <img src="" alt="perfil-anna">
-                <h2>Anna Beatriz</h2>
-                <p>Frontend Developer</p>
+                <img src="" alt="perfil-rafael">
+                <h2>Rafael Novaes</h2>
+                <p>Fullstack Developer</p>
                 <button class="instagram"></button>
                 <button class="linkedin"></button>
                 <button class="github"></button>
             </div>
             <div class="colaborador">
-                <img src="" alt="perfil-anna">
-                <h2>Anna Beatriz</h2>
-                <p>Frontend Developer</p>
+                <img src="" alt="perfil-ribeiro">
+                <h2>Lucas Ribeiro</h2>
+                <p>Backend Developer</p>
                 <button class="instagram"></button>
                 <button class="linkedin"></button>
                 <button class="github"></button>
             </div>
             <div class="colaborador">
-                <img src="" alt="perfil-anna">
-                <h2>Anna Beatriz</h2>
-                <p>Frontend Developer</p>
+                <img src="" alt="perfil-gabriel">
+                <h2>Gabriel do Carmo</h2>
+                <p>Database & DevOps</p>
                 <button class="instagram"></button>
                 <button class="linkedin"></button>
                 <button class="github"></button>
-            </div>  
+            </div>
+        </section>
+        <section id="techs">
+            <img src="" alt="React">
+            <h1>React</h1>
+            <img src="" alt="Css">
+            <h1>Tailwind CSS</h1>
+            <img src="" alt="Javascript">
+            <h1>Javascript</h1>
+            <img src="" alt="Figma">
+            <h1>Figma</h1>
         </section>
     </section>
+
+    <h1>"No escuro, todos os medos ganham vida. No código, todas as idéias se tornam realidade"</h1>
+    <p>- Equipe Tenebris, 2025</p>
 
     <footer>
         <img src="" alt="Logo">
@@ -110,6 +130,7 @@
         </ul>
         <p>&copy; Tenebris. Todos os direitos reservados. | Uma experiência aterrorizante em cada clique</p>
     </footer>
+    <script src="/src/js/menu.js"></script>
 </body>
 
 </html>
