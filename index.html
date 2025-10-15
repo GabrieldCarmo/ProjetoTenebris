@@ -11,38 +11,59 @@
 <body>
 
     <header>
+        <!-- Botão do menu hambúrguer -->
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+            ☰
+        </button>
+
+        <!-- Menu de navegação -->
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Alien</a></li>
+                <li><a href="projetos.html">Chamado</a></li>
+                <li><a href="contato.html">Panico</a></li>
+            </ul>
+        </nav>
         <img src="" alt="Logo">
         <h1>Tenebris</h1>
     </header>
 
     <section class="sobre">
-        <h1>Sobre <span>nós</span></h1>
-        <p>Bem-vindos ao Tenebris, sua plataforma definitiva para filmes de terror. Mergulhe em nosso catálogo
-            cuidadosamente curado com os melhores filmes de horror, suspense e sobrenatural. Cada filme conta com
-            informações detalhadas, avaliações da comunidade e uma experiência imersiva que vai fazer seu coração
-            acelerar antes mesmo de apertar o play. Navegue por nossas seções dedicadas, descubra novos favoritos,
-            compartilhe suas opiniões e faça parte de uma comunidade apaixonada pelo cinema de terror. Prepare-se para
-            uma jornada aterrorizante!</p>
+        <h1>Bem-vindo ao <span>Tenebris</span></h1>
+        <p>Tenebris é o site ideal para você que é o fã número um das maiores franquias de terror do cinema. Explore o
+            gênero cinematográfico e descubra seus maiores medos do universo do terror psicológico.
+            Selecionamos o melhor dos classicos sobrenaturais, suspense e psicológicos com informações devidamente
+            analisadas com avaliações da comunidade.
+        </p>
         <button>Explorar Catálogo</button>
     </section>
 
     <section class="Filmes">
-        <h1 class="titulo-filme">Hereditário</h1>
+
+        <!-- FILME 1 -->
+        <h1 class="titulo-filme">Friday the 13th</h1>
         <button>Assistir Agora</button>
-        <article class="sinopse">
+        <section class="sinopse">
             <h1>Sinopse</h1>
-            <p>Uma família herda uma mansão histórica, mas logo descobrem que ela esconde segredos sombrios e forças
-                sobrenaturais que ameaçam destruir tudo o que eles amam. Entre aparições espectrais e eventos
-                inexplicáveis, eles devem descobrir a verdade por trás da maldição antes que seja tarde demais.</p>
-        </article>
+            <p>O jovem Clay Miller ignora os conselhos dos moradores e da polícia e decide vasculhar a
+                floresta misteriosa ao redor de Crystal Lake em busca de sua irmã desaparecida. As
+                cabanas apodrecidas de um acampamento de verão abandonado não são as únicas coisas
+                que ele encontra por lá. O maníaco homicida Jason Voorhees está à espreita e pronto para
+                atacar Clay e o grupo de estudantes universitários festejando o final de semana em Crystal
+                Lake.</p>
+        </section>
 
         <div class="elenco">
             <h1>Elenco</h1>
-            <p>Artista 1</p>
-            <p>Artista 2</p>
-            <p>Artista 3</p>
-            <p>Artista 4</p>
-            <p>Artista 5</p>
+            <p>Julianna Guill</p>
+            <p>Jared Padalecki</p>
+            <p>Danielle Panabaker</p>
+            <p>Derek Mears</p>
+            <p>Travis Van Winkle</p>
+            <p>Willa Ford</p>
+            <p>Aaron Yoo</p>
+            <p>Amanda Righetti</p>
         </div>
 
         <div class="cenas">
@@ -53,29 +74,30 @@
         </div>
 
         <div class="informacoes">
-            <h1>informacoes</h1>
+            <h1>Informações</h1>
 
             <p>Diretor</p>
-            <h3>Nome-Diretor</h3>
+            <h3>Marcus Nispel</h3>
 
             <p>Ano</p>
-            <h3>2030</h3>
+            <h3>2009</h3>
 
             <p>Duração</p>
-            <h3>30 Horas</h3>
+            <h3>97 min</h3>
         </div>
 
         <div class="trailer">
             <h1>Trailer</h1>
-            <video src="#"></video>
+            <video src="https://youtu.be/cCfO1aB8CIE?si=8Aeqr2Vp6eaX2wtW" controls></video>
         </div>
-        <div>
+
+        <div class="buttons">
             <button>Assistir Filme Completo</button>
             <button>Adicionar à lista</button>
             <button>Compartilhar</button>
         </div>
-        <section class="avaliacao-publico">
 
+        <section class="avaliacao-publico">
             <div class="visao-geral">
                 <h1>Avaliações do público</h1>
                 <img class="estrelas" src="" alt="estrelas">
@@ -92,7 +114,7 @@
                     <img class="foto-perfil-avaliante" src="" alt="">
                     <h1>Marina Silva</h1>
                     <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
-                   <h3>14/01/2024</h3>
+                    <h3>14/01/2024</h3>
                     <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
                         momentos previsíveis, mas no geral uma ótima experiência.</p>
                     <img class="like" src="" alt="like">
@@ -103,22 +125,31 @@
 
             </div>
         </section>
-        <h1 class="titulo-filme">Hallowen: Ends</h1>
+
+        <!-- FILME 2 -->
+
+        <h1 class="titulo-filme">Friday the 13th</h1>
         <button>Assistir Agora</button>
-        <article class="sinopse">
+        <section class="sinopse">
             <h1>Sinopse</h1>
-            <p>Uma família herda uma mansão histórica, mas logo descobrem que ela esconde segredos sombrios e forças
-                sobrenaturais que ameaçam destruir tudo o que eles amam. Entre aparições espectrais e eventos
-                inexplicáveis, eles devem descobrir a verdade por trás da maldição antes que seja tarde demais.</p>
-        </article>
+            <p>O jovem Clay Miller ignora os conselhos dos moradores e da polícia e decide vasculhar a
+                floresta misteriosa ao redor de Crystal Lake em busca de sua irmã desaparecida. As
+                cabanas apodrecidas de um acampamento de verão abandonado não são as únicas coisas
+                que ele encontra por lá. O maníaco homicida Jason Voorhees está à espreita e pronto para
+                atacar Clay e o grupo de estudantes universitários festejando o final de semana em Crystal
+                Lake.</p>
+        </section>
 
         <div class="elenco">
             <h1>Elenco</h1>
-            <p>Artista 1</p>
-            <p>Artista 2</p>
-            <p>Artista 3</p>
-            <p>Artista 4</p>
-            <p>Artista 5</p>
+            <p>Julianna Guill</p>
+            <p>Jared Padalecki</p>
+            <p>Danielle Panabaker</p>
+            <p>Derek Mears</p>
+            <p>Travis Van Winkle</p>
+            <p>Willa Ford</p>
+            <p>Aaron Yoo</p>
+            <p>Amanda Righetti</p>
         </div>
 
         <div class="cenas">
@@ -129,29 +160,30 @@
         </div>
 
         <div class="informacoes">
-            <h1>informacoes</h1>
+            <h1>Informações</h1>
 
             <p>Diretor</p>
-            <h3>Nome-Diretor</h3>
+            <h3>Marcus Nispel</h3>
 
             <p>Ano</p>
-            <h3>2030</h3>
+            <h3>2009</h3>
 
             <p>Duração</p>
-            <h3>30 Horas</h3>
+            <h3>97 min</h3>
         </div>
 
         <div class="trailer">
             <h1>Trailer</h1>
-            <video src="#"></video>
+            <video src="https://youtu.be/cCfO1aB8CIE?si=8Aeqr2Vp6eaX2wtW" controls></video>
         </div>
-        <div>
+
+        <div class="buttons">
             <button>Assistir Filme Completo</button>
             <button>Adicionar à lista</button>
             <button>Compartilhar</button>
         </div>
-        <section class="avaliacao-publico">
 
+        <section class="avaliacao-publico">
             <div class="visao-geral">
                 <h1>Avaliações do público</h1>
                 <img class="estrelas" src="" alt="estrelas">
@@ -168,7 +200,7 @@
                     <img class="foto-perfil-avaliante" src="" alt="">
                     <h1>Marina Silva</h1>
                     <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
-                   <h3>14/01/2024</h3>
+                    <h3>14/01/2024</h3>
                     <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
                         momentos previsíveis, mas no geral uma ótima experiência.</p>
                     <img class="like" src="" alt="like">
@@ -179,22 +211,31 @@
 
             </div>
         </section>
-        <h1 class="titulo-filme">Rua do medo: 1666</h1>
+
+        <!-- FILME 3 -->
+
+        <h1 class="titulo-filme">Friday the 13th</h1>
         <button>Assistir Agora</button>
-        <article class="sinopse">
+        <section class="sinopse">
             <h1>Sinopse</h1>
-            <p>Uma família herda uma mansão histórica, mas logo descobrem que ela esconde segredos sombrios e forças
-                sobrenaturais que ameaçam destruir tudo o que eles amam. Entre aparições espectrais e eventos
-                inexplicáveis, eles devem descobrir a verdade por trás da maldição antes que seja tarde demais.</p>
-        </article>
+            <p>O jovem Clay Miller ignora os conselhos dos moradores e da polícia e decide vasculhar a
+                floresta misteriosa ao redor de Crystal Lake em busca de sua irmã desaparecida. As
+                cabanas apodrecidas de um acampamento de verão abandonado não são as únicas coisas
+                que ele encontra por lá. O maníaco homicida Jason Voorhees está à espreita e pronto para
+                atacar Clay e o grupo de estudantes universitários festejando o final de semana em Crystal
+                Lake.</p>
+        </section>
 
         <div class="elenco">
             <h1>Elenco</h1>
-            <p>Artista 1</p>
-            <p>Artista 2</p>
-            <p>Artista 3</p>
-            <p>Artista 4</p>
-            <p>Artista 5</p>
+            <p>Julianna Guill</p>
+            <p>Jared Padalecki</p>
+            <p>Danielle Panabaker</p>
+            <p>Derek Mears</p>
+            <p>Travis Van Winkle</p>
+            <p>Willa Ford</p>
+            <p>Aaron Yoo</p>
+            <p>Amanda Righetti</p>
         </div>
 
         <div class="cenas">
@@ -205,29 +246,30 @@
         </div>
 
         <div class="informacoes">
-            <h1>informacoes</h1>
+            <h1>Informações</h1>
 
             <p>Diretor</p>
-            <h3>Nome-Diretor</h3>
+            <h3>Marcus Nispel</h3>
 
             <p>Ano</p>
-            <h3>2030</h3>
+            <h3>2009</h3>
 
             <p>Duração</p>
-            <h3>30 Horas</h3>
+            <h3>97 min</h3>
         </div>
 
         <div class="trailer">
             <h1>Trailer</h1>
-            <video src="#"></video>
+            <video src="https://youtu.be/cCfO1aB8CIE?si=8Aeqr2Vp6eaX2wtW" controls></video>
         </div>
-        <div>
+
+        <div class="buttons">
             <button>Assistir Filme Completo</button>
             <button>Adicionar à lista</button>
             <button>Compartilhar</button>
         </div>
-        <section class="avaliacao-publico">
 
+        <section class="avaliacao-publico">
             <div class="visao-geral">
                 <h1>Avaliações do público</h1>
                 <img class="estrelas" src="" alt="estrelas">
@@ -244,7 +286,609 @@
                     <img class="foto-perfil-avaliante" src="" alt="">
                     <h1>Marina Silva</h1>
                     <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
-                   <h3>14/01/2024</h3>
+                    <h3>14/01/2024</h3>
+                    <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
+                        momentos previsíveis, mas no geral uma ótima experiência.</p>
+                    <img class="like" src="" alt="like">
+                    <p>18</p>
+                    <img class="unlike" src="" alt="unlike">
+                    <p>5</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FILME 4 -->
+
+        <h1 class="titulo-filme">Friday the 13th</h1>
+        <button>Assistir Agora</button>
+        <section class="sinopse">
+            <h1>Sinopse</h1>
+            <p>O jovem Clay Miller ignora os conselhos dos moradores e da polícia e decide vasculhar a
+                floresta misteriosa ao redor de Crystal Lake em busca de sua irmã desaparecida. As
+                cabanas apodrecidas de um acampamento de verão abandonado não são as únicas coisas
+                que ele encontra por lá. O maníaco homicida Jason Voorhees está à espreita e pronto para
+                atacar Clay e o grupo de estudantes universitários festejando o final de semana em Crystal
+                Lake.</p>
+        </section>
+
+        <div class="elenco">
+            <h1>Elenco</h1>
+            <p>Julianna Guill</p>
+            <p>Jared Padalecki</p>
+            <p>Danielle Panabaker</p>
+            <p>Derek Mears</p>
+            <p>Travis Van Winkle</p>
+            <p>Willa Ford</p>
+            <p>Aaron Yoo</p>
+            <p>Amanda Righetti</p>
+        </div>
+
+        <div class="cenas">
+            <h1>Cenas</h1>
+            <img class="cenas-fotos" src="" alt="Cena1">
+            <img class="cenas-fotos" src="" alt="Cena2">
+            <img class="cenas-fotos" src="" alt="Cena3">
+        </div>
+
+        <div class="informacoes">
+            <h1>Informações</h1>
+
+            <p>Diretor</p>
+            <h3>Marcus Nispel</h3>
+
+            <p>Ano</p>
+            <h3>2009</h3>
+
+            <p>Duração</p>
+            <h3>97 min</h3>
+        </div>
+
+        <div class="trailer">
+            <h1>Trailer</h1>
+            <video src="https://youtu.be/cCfO1aB8CIE?si=8Aeqr2Vp6eaX2wtW" controls></video>
+        </div>
+
+        <div class="buttons">
+            <button>Assistir Filme Completo</button>
+            <button>Adicionar à lista</button>
+            <button>Compartilhar</button>
+        </div>
+
+        <section class="avaliacao-publico">
+            <div class="visao-geral">
+                <h1>Avaliações do público</h1>
+                <img class="estrelas" src="" alt="estrelas">
+                <h3>Média geral</h3>
+                <h1>298</h1>
+                <h3>Avaliações</h3>
+                <button>Escrever Avaliação</button>
+            </div>
+
+            <div class="comentarios">
+                <h1>Comentrários dos Usuários</h1>
+
+                <div class="card-avaliacao">
+                    <img class="foto-perfil-avaliante" src="" alt="">
+                    <h1>Marina Silva</h1>
+                    <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
+                    <h3>14/01/2024</h3>
+                    <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
+                        momentos previsíveis, mas no geral uma ótima experiência.</p>
+                    <img class="like" src="" alt="like">
+                    <p>18</p>
+                    <img class="unlike" src="" alt="unlike">
+                    <p>5</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FILME 5 -->
+
+        <h1 class="titulo-filme">Friday the 13th</h1>
+        <button>Assistir Agora</button>
+        <section class="sinopse">
+            <h1>Sinopse</h1>
+            <p>O jovem Clay Miller ignora os conselhos dos moradores e da polícia e decide vasculhar a
+                floresta misteriosa ao redor de Crystal Lake em busca de sua irmã desaparecida. As
+                cabanas apodrecidas de um acampamento de verão abandonado não são as únicas coisas
+                que ele encontra por lá. O maníaco homicida Jason Voorhees está à espreita e pronto para
+                atacar Clay e o grupo de estudantes universitários festejando o final de semana em Crystal
+                Lake.</p>
+        </section>
+
+        <div class="elenco">
+            <h1>Elenco</h1>
+            <p>Julianna Guill</p>
+            <p>Jared Padalecki</p>
+            <p>Danielle Panabaker</p>
+            <p>Derek Mears</p>
+            <p>Travis Van Winkle</p>
+            <p>Willa Ford</p>
+            <p>Aaron Yoo</p>
+            <p>Amanda Righetti</p>
+        </div>
+
+        <div class="cenas">
+            <h1>Cenas</h1>
+            <img class="cenas-fotos" src="" alt="Cena1">
+            <img class="cenas-fotos" src="" alt="Cena2">
+            <img class="cenas-fotos" src="" alt="Cena3">
+        </div>
+
+        <div class="informacoes">
+            <h1>Informações</h1>
+
+            <p>Diretor</p>
+            <h3>Marcus Nispel</h3>
+
+            <p>Ano</p>
+            <h3>2009</h3>
+
+            <p>Duração</p>
+            <h3>97 min</h3>
+        </div>
+
+        <div class="trailer">
+            <h1>Trailer</h1>
+            <video src="https://youtu.be/cCfO1aB8CIE?si=8Aeqr2Vp6eaX2wtW" controls></video>
+        </div>
+
+        <div class="buttons">
+            <button>Assistir Filme Completo</button>
+            <button>Adicionar à lista</button>
+            <button>Compartilhar</button>
+        </div>
+
+        <section class="avaliacao-publico">
+            <div class="visao-geral">
+                <h1>Avaliações do público</h1>
+                <img class="estrelas" src="" alt="estrelas">
+                <h3>Média geral</h3>
+                <h1>298</h1>
+                <h3>Avaliações</h3>
+                <button>Escrever Avaliação</button>
+            </div>
+
+            <div class="comentarios">
+                <h1>Comentrários dos Usuários</h1>
+
+                <div class="card-avaliacao">
+                    <img class="foto-perfil-avaliante" src="" alt="">
+                    <h1>Marina Silva</h1>
+                    <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
+                    <h3>14/01/2024</h3>
+                    <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
+                        momentos previsíveis, mas no geral uma ótima experiência.</p>
+                    <img class="like" src="" alt="like">
+                    <p>18</p>
+                    <img class="unlike" src="" alt="unlike">
+                    <p>5</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FILME 6 -->
+
+        <h1 class="titulo-filme">Friday the 13th</h1>
+        <button>Assistir Agora</button>
+        <section class="sinopse">
+            <h1>Sinopse</h1>
+            <p>O jovem Clay Miller ignora os conselhos dos moradores e da polícia e decide vasculhar a
+                floresta misteriosa ao redor de Crystal Lake em busca de sua irmã desaparecida. As
+                cabanas apodrecidas de um acampamento de verão abandonado não são as únicas coisas
+                que ele encontra por lá. O maníaco homicida Jason Voorhees está à espreita e pronto para
+                atacar Clay e o grupo de estudantes universitários festejando o final de semana em Crystal
+                Lake.</p>
+        </section>
+
+        <div class="elenco">
+            <h1>Elenco</h1>
+            <p>Julianna Guill</p>
+            <p>Jared Padalecki</p>
+            <p>Danielle Panabaker</p>
+            <p>Derek Mears</p>
+            <p>Travis Van Winkle</p>
+            <p>Willa Ford</p>
+            <p>Aaron Yoo</p>
+            <p>Amanda Righetti</p>
+        </div>
+
+        <div class="cenas">
+            <h1>Cenas</h1>
+            <img class="cenas-fotos" src="" alt="Cena1">
+            <img class="cenas-fotos" src="" alt="Cena2">
+            <img class="cenas-fotos" src="" alt="Cena3">
+        </div>
+
+        <div class="informacoes">
+            <h1>Informações</h1>
+
+            <p>Diretor</p>
+            <h3>Marcus Nispel</h3>
+
+            <p>Ano</p>
+            <h3>2009</h3>
+
+            <p>Duração</p>
+            <h3>97 min</h3>
+        </div>
+
+        <div class="trailer">
+            <h1>Trailer</h1>
+            <video src="https://youtu.be/cCfO1aB8CIE?si=8Aeqr2Vp6eaX2wtW" controls></video>
+        </div>
+
+        <div class="buttons">
+            <button>Assistir Filme Completo</button>
+            <button>Adicionar à lista</button>
+            <button>Compartilhar</button>
+        </div>
+
+        <section class="avaliacao-publico">
+            <div class="visao-geral">
+                <h1>Avaliações do público</h1>
+                <img class="estrelas" src="" alt="estrelas">
+                <h3>Média geral</h3>
+                <h1>298</h1>
+                <h3>Avaliações</h3>
+                <button>Escrever Avaliação</button>
+            </div>
+
+            <div class="comentarios">
+                <h1>Comentrários dos Usuários</h1>
+
+                <div class="card-avaliacao">
+                    <img class="foto-perfil-avaliante" src="" alt="">
+                    <h1>Marina Silva</h1>
+                    <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
+                    <h3>14/01/2024</h3>
+                    <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
+                        momentos previsíveis, mas no geral uma ótima experiência.</p>
+                    <img class="like" src="" alt="like">
+                    <p>18</p>
+                    <img class="unlike" src="" alt="unlike">
+                    <p>5</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FILME 7 -->
+
+        <h1 class="titulo-filme">Friday the 13th</h1>
+        <button>Assistir Agora</button>
+        <section class="sinopse">
+            <h1>Sinopse</h1>
+            <p>O jovem Clay Miller ignora os conselhos dos moradores e da polícia e decide vasculhar a
+                floresta misteriosa ao redor de Crystal Lake em busca de sua irmã desaparecida. As
+                cabanas apodrecidas de um acampamento de verão abandonado não são as únicas coisas
+                que ele encontra por lá. O maníaco homicida Jason Voorhees está à espreita e pronto para
+                atacar Clay e o grupo de estudantes universitários festejando o final de semana em Crystal
+                Lake.</p>
+        </section>
+
+        <div class="elenco">
+            <h1>Elenco</h1>
+            <p>Julianna Guill</p>
+            <p>Jared Padalecki</p>
+            <p>Danielle Panabaker</p>
+            <p>Derek Mears</p>
+            <p>Travis Van Winkle</p>
+            <p>Willa Ford</p>
+            <p>Aaron Yoo</p>
+            <p>Amanda Righetti</p>
+        </div>
+
+        <div class="cenas">
+            <h1>Cenas</h1>
+            <img class="cenas-fotos" src="" alt="Cena1">
+            <img class="cenas-fotos" src="" alt="Cena2">
+            <img class="cenas-fotos" src="" alt="Cena3">
+        </div>
+
+        <div class="informacoes">
+            <h1>Informações</h1>
+
+            <p>Diretor</p>
+            <h3>Marcus Nispel</h3>
+
+            <p>Ano</p>
+            <h3>2009</h3>
+
+            <p>Duração</p>
+            <h3>97 min</h3>
+        </div>
+
+        <div class="trailer">
+            <h1>Trailer</h1>
+            <video src="https://youtu.be/cCfO1aB8CIE?si=8Aeqr2Vp6eaX2wtW" controls></video>
+        </div>
+
+        <div class="buttons">
+            <button>Assistir Filme Completo</button>
+            <button>Adicionar à lista</button>
+            <button>Compartilhar</button>
+        </div>
+
+        <section class="avaliacao-publico">
+            <div class="visao-geral">
+                <h1>Avaliações do público</h1>
+                <img class="estrelas" src="" alt="estrelas">
+                <h3>Média geral</h3>
+                <h1>298</h1>
+                <h3>Avaliações</h3>
+                <button>Escrever Avaliação</button>
+            </div>
+
+            <div class="comentarios">
+                <h1>Comentrários dos Usuários</h1>
+
+                <div class="card-avaliacao">
+                    <img class="foto-perfil-avaliante" src="" alt="">
+                    <h1>Marina Silva</h1>
+                    <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
+                    <h3>14/01/2024</h3>
+                    <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
+                        momentos previsíveis, mas no geral uma ótima experiência.</p>
+                    <img class="like" src="" alt="like">
+                    <p>18</p>
+                    <img class="unlike" src="" alt="unlike">
+                    <p>5</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FILME 8 -->
+
+        <h1 class="titulo-filme">Friday the 13th</h1>
+        <button>Assistir Agora</button>
+        <section class="sinopse">
+            <h1>Sinopse</h1>
+            <p>O jovem Clay Miller ignora os conselhos dos moradores e da polícia e decide vasculhar a
+                floresta misteriosa ao redor de Crystal Lake em busca de sua irmã desaparecida. As
+                cabanas apodrecidas de um acampamento de verão abandonado não são as únicas coisas
+                que ele encontra por lá. O maníaco homicida Jason Voorhees está à espreita e pronto para
+                atacar Clay e o grupo de estudantes universitários festejando o final de semana em Crystal
+                Lake.</p>
+        </section>
+
+        <div class="elenco">
+            <h1>Elenco</h1>
+            <p>Julianna Guill</p>
+            <p>Jared Padalecki</p>
+            <p>Danielle Panabaker</p>
+            <p>Derek Mears</p>
+            <p>Travis Van Winkle</p>
+            <p>Willa Ford</p>
+            <p>Aaron Yoo</p>
+            <p>Amanda Righetti</p>
+        </div>
+
+        <div class="cenas">
+            <h1>Cenas</h1>
+            <img class="cenas-fotos" src="" alt="Cena1">
+            <img class="cenas-fotos" src="" alt="Cena2">
+            <img class="cenas-fotos" src="" alt="Cena3">
+        </div>
+
+        <div class="informacoes">
+            <h1>Informações</h1>
+
+            <p>Diretor</p>
+            <h3>Marcus Nispel</h3>
+
+            <p>Ano</p>
+            <h3>2009</h3>
+
+            <p>Duração</p>
+            <h3>97 min</h3>
+        </div>
+
+        <div class="trailer">
+            <h1>Trailer</h1>
+            <video src="https://youtu.be/cCfO1aB8CIE?si=8Aeqr2Vp6eaX2wtW" controls></video>
+        </div>
+
+        <div class="buttons">
+            <button>Assistir Filme Completo</button>
+            <button>Adicionar à lista</button>
+            <button>Compartilhar</button>
+        </div>
+
+        <section class="avaliacao-publico">
+            <div class="visao-geral">
+                <h1>Avaliações do público</h1>
+                <img class="estrelas" src="" alt="estrelas">
+                <h3>Média geral</h3>
+                <h1>298</h1>
+                <h3>Avaliações</h3>
+                <button>Escrever Avaliação</button>
+            </div>
+
+            <div class="comentarios">
+                <h1>Comentrários dos Usuários</h1>
+
+                <div class="card-avaliacao">
+                    <img class="foto-perfil-avaliante" src="" alt="">
+                    <h1>Marina Silva</h1>
+                    <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
+                    <h3>14/01/2024</h3>
+                    <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
+                        momentos previsíveis, mas no geral uma ótima experiência.</p>
+                    <img class="like" src="" alt="like">
+                    <p>18</p>
+                    <img class="unlike" src="" alt="unlike">
+                    <p>5</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FILME 9 -->
+
+        <h1 class="titulo-filme">Friday the 13th</h1>
+        <button>Assistir Agora</button>
+        <section class="sinopse">
+            <h1>Sinopse</h1>
+            <p>O jovem Clay Miller ignora os conselhos dos moradores e da polícia e decide vasculhar a
+                floresta misteriosa ao redor de Crystal Lake em busca de sua irmã desaparecida. As
+                cabanas apodrecidas de um acampamento de verão abandonado não são as únicas coisas
+                que ele encontra por lá. O maníaco homicida Jason Voorhees está à espreita e pronto para
+                atacar Clay e o grupo de estudantes universitários festejando o final de semana em Crystal
+                Lake.</p>
+        </section>
+
+        <div class="elenco">
+            <h1>Elenco</h1>
+            <p>Julianna Guill</p>
+            <p>Jared Padalecki</p>
+            <p>Danielle Panabaker</p>
+            <p>Derek Mears</p>
+            <p>Travis Van Winkle</p>
+            <p>Willa Ford</p>
+            <p>Aaron Yoo</p>
+            <p>Amanda Righetti</p>
+        </div>
+
+        <div class="cenas">
+            <h1>Cenas</h1>
+            <img class="cenas-fotos" src="" alt="Cena1">
+            <img class="cenas-fotos" src="" alt="Cena2">
+            <img class="cenas-fotos" src="" alt="Cena3">
+        </div>
+
+        <div class="informacoes">
+            <h1>Informações</h1>
+
+            <p>Diretor</p>
+            <h3>Marcus Nispel</h3>
+
+            <p>Ano</p>
+            <h3>2009</h3>
+
+            <p>Duração</p>
+            <h3>97 min</h3>
+        </div>
+
+        <div class="trailer">
+            <h1>Trailer</h1>
+            <video src="https://youtu.be/cCfO1aB8CIE?si=8Aeqr2Vp6eaX2wtW" controls></video>
+        </div>
+
+        <div class="buttons">
+            <button>Assistir Filme Completo</button>
+            <button>Adicionar à lista</button>
+            <button>Compartilhar</button>
+        </div>
+
+        <section class="avaliacao-publico">
+            <div class="visao-geral">
+                <h1>Avaliações do público</h1>
+                <img class="estrelas" src="" alt="estrelas">
+                <h3>Média geral</h3>
+                <h1>298</h1>
+                <h3>Avaliações</h3>
+                <button>Escrever Avaliação</button>
+            </div>
+
+            <div class="comentarios">
+                <h1>Comentrários dos Usuários</h1>
+
+                <div class="card-avaliacao">
+                    <img class="foto-perfil-avaliante" src="" alt="">
+                    <h1>Marina Silva</h1>
+                    <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
+                    <h3>14/01/2024</h3>
+                    <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
+                        momentos previsíveis, mas no geral uma ótima experiência.</p>
+                    <img class="like" src="" alt="like">
+                    <p>18</p>
+                    <img class="unlike" src="" alt="unlike">
+                    <p>5</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FILME 10 -->
+
+        <h1 class="titulo-filme">Friday the 13th</h1>
+        <button>Assistir Agora</button>
+        <section class="sinopse">
+            <h1>Sinopse</h1>
+            <p>O jovem Clay Miller ignora os conselhos dos moradores e da polícia e decide vasculhar a
+                floresta misteriosa ao redor de Crystal Lake em busca de sua irmã desaparecida. As
+                cabanas apodrecidas de um acampamento de verão abandonado não são as únicas coisas
+                que ele encontra por lá. O maníaco homicida Jason Voorhees está à espreita e pronto para
+                atacar Clay e o grupo de estudantes universitários festejando o final de semana em Crystal
+                Lake.</p>
+        </section>
+
+        <div class="elenco">
+            <h1>Elenco</h1>
+            <p>Julianna Guill</p>
+            <p>Jared Padalecki</p>
+            <p>Danielle Panabaker</p>
+            <p>Derek Mears</p>
+            <p>Travis Van Winkle</p>
+            <p>Willa Ford</p>
+            <p>Aaron Yoo</p>
+            <p>Amanda Righetti</p>
+        </div>
+
+        <div class="cenas">
+            <h1>Cenas</h1>
+            <img class="cenas-fotos" src="" alt="Cena1">
+            <img class="cenas-fotos" src="" alt="Cena2">
+            <img class="cenas-fotos" src="" alt="Cena3">
+        </div>
+
+        <div class="informacoes">
+            <h1>Informações</h1>
+
+            <p>Diretor</p>
+            <h3>Marcus Nispel</h3>
+
+            <p>Ano</p>
+            <h3>2009</h3>
+
+            <p>Duração</p>
+            <h3>97 min</h3>
+        </div>
+
+        <div class="trailer">
+            <h1>Trailer</h1>
+            <video src="https://youtu.be/cCfO1aB8CIE?si=8Aeqr2Vp6eaX2wtW" controls></video>
+        </div>
+
+        <div class="buttons">
+            <button>Assistir Filme Completo</button>
+            <button>Adicionar à lista</button>
+            <button>Compartilhar</button>
+        </div>
+
+        <section class="avaliacao-publico">
+            <div class="visao-geral">
+                <h1>Avaliações do público</h1>
+                <img class="estrelas" src="" alt="estrelas">
+                <h3>Média geral</h3>
+                <h1>298</h1>
+                <h3>Avaliações</h3>
+                <button>Escrever Avaliação</button>
+            </div>
+
+            <div class="comentarios">
+                <h1>Comentrários dos Usuários</h1>
+
+                <div class="card-avaliacao">
+                    <img class="foto-perfil-avaliante" src="" alt="">
+                    <h1>Marina Silva</h1>
+                    <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
+                    <h3>14/01/2024</h3>
                     <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
                         momentos previsíveis, mas no geral uma ótima experiência.</p>
                     <img class="like" src="" alt="like">
