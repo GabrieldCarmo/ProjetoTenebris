@@ -4,22 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/chamado.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <title>Document</title>
+    <title>O chamado</title>
 </head>
 
 <body>
     <header>
-        <!-- Botão do menu hambúrguer -->
         <button class="menu-hamburguer" id="menu-hamburguer">
             ☰
         </button>
         <img src="" alt="Logo">
-        <h1>Tenebris</h1>
     </header>
 
     <section id="bannerchamado">
-        <h1>Chamado</h1>
+        <h1>O Chamado</h1>
     </section>
 
     <section class="linha-tempo">
@@ -28,7 +27,7 @@
         <div class="container-linha-tempo">
             <button id="voltar">⟨</button>
 
-            <div class="linha-tempo" id="linha-tempo">
+            <div id="linha-tempo">
 
                 <div class="quadro">
                     <img src="" alt="O chamado">
@@ -47,15 +46,21 @@
                     <h3>2017</h3>
                     <p><strong>Rings</strong><br>Nova geração, mesma maldição</p>
                 </div>
-
-                <button id="avancar">⟩</button>
             </div>
+
+            <button id="avancar">⟩</button>
+        </div>
     </section>
 
+    <div class="quebra">
+        <div class="linha-esquerda"></div>
+        <img class="fita" src="" alt="Fita ">
+        <div class="linha-direita"></div>
+    </div>
 
     <!-- FILME 1 -->
+    <section class="Filme">
 
-    <section class="Filmes">
         <h1 class="titulo-filme">The Ring</h1>
         <ul>
             <li><img src="estrela.png" alt="estrela"> 8.5</li>
@@ -63,88 +68,107 @@
             <li><img src="relogio.png" alt="relógio"> 124 min</li>
             <li>Terror</li>
         </ul>
+
         <button>Assistir Agora</button>
 
-        <article class="sinopse">
-            <h1>Sinopse</h1>
-            <p>A jornalista Rachel Keller investiga uma misteriosa fita de vídeo que, segundo rumores, mata quem a
-                assiste sete dias depois. Ao descobrir que sua própria sobrinha foi uma das vítimas, Rachel mergulha em
-                uma corrida contra o tempo para desvendar a origem da maldição e salvar sua vida e a de seu filho.</p>
-        </article>
+        <section class="container">
+            <section class="esquerda">
+                <article class="sinopse">
+                    <h1>Sinopse</h1>
+                    <p>A jornalista Rachel Keller investiga uma misteriosa fita de vídeo que, segundo rumores, mata
+                        quem
+                        a
+                        assiste sete dias depois. Ao descobrir que sua própria sobrinha foi uma das vítimas, Rachel
+                        mergulha
+                        em
+                        uma corrida contra o tempo para desvendar a origem da maldição e salvar sua vida e a de seu
+                        filho.
+                    </p>
+                </article>
 
-        <div class="elenco">
-            <h1>Elenco</h1>
-            <p>Naomi Watts</p>
-            <p>Martin Henderson</p>
-            <p>David Dorfman</p>
-            <p>Brian Cox</p>
-            <p>Jane Alexander</p>
-            <p>Lindsay Frost</p>
-            <p>Amber Tamblyn</p>
-        </div>
+                <div class="elenco">
+                    <h1>Elenco</h1>
+                    <p>Naomi Watts</p>
+                    <p>Martin Henderson</p>
+                    <p>David Dorfman</p>
+                    <p>Brian Cox</p>
+                    <p>Jane Alexander</p>
+                    <p>Lindsay Frost</p>
+                    <p>Amber Tamblyn</p>
+                </div>
 
-        <div class="cenas">
-            <h1>Cenas</h1>
-            <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
-            <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
-            <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
-        </div>
+                <div class="cenas">
+                    <h1>Cenas</h1>
+                    <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
+                    <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
+                    <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
+                </div>
+            </section>
 
-        <div class="informacoes">
-            <h1>informacoes</h1>
+            <section class="direita">
+                <div class="informacoes">
+                    <h1>informacoes</h1>
 
-            <p>Diretor</p>
-            <h3>Gore Verbinski</h3>
+                    <p>Diretor</p>
+                    <h3>Gore Verbinski</h3>
 
-            <p>Ano</p>
-            <h3>2002</h3>
+                    <p>Ano</p>
+                    <h3>2002</h3>
 
-            <p>Duração</p>
-            <h3>115 min</h3>
-        </div>
+                    <p>Duração</p>
+                    <h3>115 min</h3>
+                </div>
 
-        <div class="trailer">
-            <h1>Trailer</h1>
-            <video src="https://www.youtube.com/watch?v=yzR2GY-ew8I"></video>
-        </div>
+                <div class="trailer">
+                    <h1>Trailer</h1>
+                    <video src="https://www.youtube.com/watch?v=yzR2GY-ew8I"></video>
+                </div>
 
-        <div class="buttons">
-            <button>Assistir Filme Completo</button>
-            <button>Adicionar à lista</button>
-            <button>Compartilhar</button>
-        </div>
+                <div class="buttons">
+                    <button>Assistir Filme Completo</button>
+                    <button>Adicionar à lista</button>
+                    <button>Compartilhar</button>
+                </div>
+            </section>
+        </section>
+
         <section class="avaliacao-publico">
 
             <div class="visao-geral">
                 <h1>Avaliações do público</h1>
-                <img class="estrelas" src="" alt="estrelas">
-                <h3>Média geral</h3>
-                <h1>298</h1>
-                <h3>Avaliações</h3>
-                <button>Escrever Avaliação</button>
+                <div class="av-esquerda">
+                    <img class="estrelas" src="" alt="estrelas">
+                    <h3>Média geral</h3>
+                </div>
+                <div class="av-direita">
+                    <h1>298</h1>
+                    <h3>Avaliações</h3>
+                </div>
             </div>
+
+            <button>Escrever Avaliação</button>
 
             <div class="comentarios">
-                <h1>Comentrários dos Usuários</h1>
+                <h2>Comentários dos Usuários</h2>
 
-                <div class="card-avaliacao">
-                    <img class="foto-perfil-avaliante" src="" alt="">
-                    <h1>Marina Silva</h1>
-                    <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
-                    <h3>14/01/2024</h3>
-                    <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
-                        momentos previsíveis, mas no geral uma ótima experiência.</p>
-                    <img class="like" src="" alt="like">
-                    <p>18</p>
-                    <img class="unlike" src="" alt="unlike">
-                    <p>5</p>
+                <div class="comentario-vazio">
+                    <img src="" alt="Ícone de comentário">
+                    <p>Ainda não há avaliações para este filme.<br>Seja o primeiro a compartilhar sua opinião!</p>
                 </div>
-
             </div>
+
         </section>
+    </section>
 
-        <!-- FILME 2 -->
+    <div class="quebra">
+        <div class="linha-esquerda"></div>
+        <img class="fita" src="" alt="Fita ">
+        <div class="linha-direita"></div>
+    </div>
 
+    <!-- FILME 2 -->
+
+    <section class="Filme">
         <h1 class="titulo-filme">The Ring 2</h1>
         <ul>
             <li><img src="estrela.png" alt="estrela"> 8.5</li>
@@ -155,84 +179,105 @@
 
         <button>Assistir Agora</button>
 
-        <article class="sinopse">
-            <h1>Sinopse</h1>
-            <p>Após os acontecimentos do primeiro filme, Rachel e seu filho Aidan se mudam para uma nova cidade em busca
-                de paz. No entanto, a maldição de Samara volta a persegui-los, forçando Rachel a enfrentar novamente o
-                terror da fita amaldiçoada enquanto tenta proteger seu filho das forças sobrenaturais que o cercam.</p>
-        </article>
+        <section class="container">
+            <section class="esquerda">
+                <article class="sinopse">
+                    <h1>Sinopse</h1>
+                    <p>Após os acontecimentos do primeiro filme, Rachel e seu filho Aidan se mudam para uma nova
+                        cidade
+                        em
+                        busca
+                        de paz. No entanto, a maldição de Samara volta a persegui-los, forçando Rachel a enfrentar
+                        novamente
+                        o
+                        terror da fita amaldiçoada enquanto tenta proteger seu filho das forças sobrenaturais que o
+                        cercam.
+                    </p>
+                </article>
 
-        <div class="elenco">
-            <h1>Elenco</h1>
-            <p>Naomi Watts</p>
-            <p>Simon Baker</p>
-            <p>David Dorfman</p>
-            <p>Elizabeth Perkins</p>
-            <p>Sissy Spacek</p>
-            <p>Ryan Merriman</p>
-        </div>
+                <div class="elenco">
+                    <h1>Elenco</h1>
+                    <p>Naomi Watts</p>
+                    <p>Simon Baker</p>
+                    <p>David Dorfman</p>
+                    <p>Elizabeth Perkins</p>
+                    <p>Sissy Spacek</p>
+                    <p>Ryan Merriman</p>
+                </div>
 
-        <div class="cenas">
-            <h1>Cenas</h1>
-            <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
-            <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
-            <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
-        </div>
+                <div class="cenas">
+                    <h1>Cenas</h1>
+                    <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
+                    <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
+                    <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
+                </div>
+            </section>
 
-        <div class="informacoes">
-            <h1>informacoes</h1>
+            <section class="direita">
 
-            <p>Diretor</p>
-            <h3>Hideo Nakata</h3>
+                <div class="informacoes">
+                    <h1>informacoes</h1>
 
-            <p>Ano</p>
-            <h3>2005</h3>
+                    <p>Diretor</p>
+                    <h3>Hideo Nakata</h3>
 
-            <p>Duração</p>
-            <h3>110 min</h3>
-        </div>
+                    <p>Ano</p>
+                    <h3>2005</h3>
 
-        <div class="trailer">
-            <h1>Trailer</h1>
-            <video src="https://www.youtube.com/watch?v=hpb2RaPUzD8"></video>
-        </div>
-        <div class="buttons">
-            <button>Assistir Filme Completo</button>
-            <button>Adicionar à lista</button>
-            <button>Compartilhar</button>
-        </div>
+                    <p>Duração</p>
+                    <h3>110 min</h3>
+                </div>
+
+                <div class="trailer">
+                    <h1>Trailer</h1>
+                    <video src="https://www.youtube.com/watch?v=hpb2RaPUzD8"></video>
+                </div>
+
+                <div class="buttons">
+                    <button>Assistir Filme Completo</button>
+                    <button>Adicionar à lista</button>
+                    <button>Compartilhar</button>
+                </div>
+            </section>
+        </section>
+
         <section class="avaliacao-publico">
 
             <div class="visao-geral">
                 <h1>Avaliações do público</h1>
-                <img class="estrelas" src="" alt="estrelas">
-                <h3>Média geral</h3>
-                <h1>298</h1>
-                <h3>Avaliações</h3>
-                <button>Escrever Avaliação</button>
+                <div class="av-esquerda">
+                    <img class="estrelas" src="" alt="estrelas">
+                    <h3>Média geral</h3>
+                </div>
+                <div class="av-direita">
+                    <h1>298</h1>
+                    <h3>Avaliações</h3>
+                </div>
             </div>
+
+            <button>Escrever Avaliação</button>
 
             <div class="comentarios">
-                <h1>Comentrários dos Usuários</h1>
+                <h2>Comentários dos Usuários</h2>
 
-                <div class="card-avaliacao">
-                    <img class="foto-perfil-avaliante" src="" alt="">
-                    <h1>Marina Silva</h1>
-                    <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
-                    <h3>14/01/2024</h3>
-                    <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
-                        momentos previsíveis, mas no geral uma ótima experiência.</p>
-                    <img class="like" src="" alt="like">
-                    <p>18</p>
-                    <img class="unlike" src="" alt="unlike">
-                    <p>5</p>
+                <div class="comentario-vazio">
+                    <img src="" alt="Ícone de comentário">
+                    <p>Ainda não há avaliações para este filme.<br>Seja o primeiro a compartilhar sua opinião!</p>
                 </div>
-
             </div>
+
         </section>
+    </section>
 
-        <!-- FILME 3 -->
+    <div class="quebra">
+        <div class="linha-esquerda"></div>
+        <img class="fita" src="" alt="Fita ">
+        <div class="linha-direita"></div>
+    </div>
 
+    <!-- FILME 3 -->
+
+    <section class="Filme">
         <h1 class="titulo-filme">Rings</h1>
         <ul>
             <li><img src="estrela.png" alt="estrela"> 8.5</li>
@@ -243,84 +288,101 @@
 
         <button>Assistir Agora</button>
 
-        <article class="sinopse">
-            <h1>Sinopse</h1>
-            <p>Uma jovem mulher se envolve com um grupo secreto que estuda a fita amaldiçoada de Samara Morgan, tentando
-                compreender sua origem. Quando ela descobre um vídeo “dentro” do vídeo original, percebe que há segredos
-                ainda mais sombrios por trás da maldição que volta a se espalhar.</p>
-        </article>
+        <section class="container">
+            <section class="esquerda">
+                <article class="sinopse">
+                    <h1>Sinopse</h1>
+                    <p>Uma jovem mulher se envolve com um grupo secreto que estuda a fita amaldiçoada de Samara
+                        Morgan,
+                        tentando
+                        compreender sua origem. Quando ela descobre um vídeo “dentro” do vídeo original, percebe que
+                        há
+                        segredos
+                        ainda mais sombrios por trás da maldição que volta a se espalhar.</p>
+                </article>
 
-        <div class="elenco">
-            <h1>Elenco</h1>
-            <p>Matilda Anna Ingrid Lutz</p>
-            <p>Alex Roe</p>
-            <p>Johnny Galecki</p>
-            <p>Aimee Teegarden</p>
-            <p>Bonnie Morgan</p>
-            <p>Vincent D'Onofrio</p>
-        </div>
+                <div class="elenco">
+                    <h1>Elenco</h1>
+                    <p>Matilda Anna Ingrid Lutz</p>
+                    <p>Alex Roe</p>
+                    <p>Johnny Galecki</p>
+                    <p>Aimee Teegarden</p>
+                    <p>Bonnie Morgan</p>
+                    <p>Vincent D'Onofrio</p>
+                </div>
 
-        <div class="cenas">
-            <h1>Cenas</h1>
-            <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
-            <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
-            <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
-        </div>
+                <div class="cenas">
+                    <h1>Cenas</h1>
+                    <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
+                    <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
+                    <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
+                </div>
+            </section>
 
-        <div class="informacoes">
-            <h1>informacoes</h1>
+            <section class="direita">
+                <div class="informacoes">
+                    <h1>informacoes</h1>
 
-            <p>Diretor</p>
-            <h3>F. Javier Gutiérrez</h3>
+                    <p>Diretor</p>
+                    <h3>F. Javier Gutiérrez</h3>
 
-            <p>Ano</p>
-            <h3>2017</h3>
+                    <p>Ano</p>
+                    <h3>2017</h3>
 
-            <p>Duração</p>
-            <h3>102 min</h3>
-        </div>
+                    <p>Duração</p>
+                    <h3>102 min</h3>
+                </div>
 
-        <div class="trailer">
-            <h1>Trailer</h1>
-            <video src="https://www.youtube.com/watch?v=uukQ_6szDm8"></video>
-        </div>
+                <div class="trailer">
+                    <h1>Trailer</h1>
+                    <video src="https://www.youtube.com/watch?v=uukQ_6szDm8"></video>
+                </div>
 
-        <div class="buttons">
-            <button>Assistir Filme Completo</button>
-            <button>Adicionar à lista</button>
-            <button>Compartilhar</button>
-        </div>
+                <div class="buttons">
+                    <button>Assistir Filme Completo</button>
+                    <button>Adicionar à lista</button>
+                    <button>Compartilhar</button>
+                </div>
+            </section>
+        </section>
+
         <section class="avaliacao-publico">
 
             <div class="visao-geral">
                 <h1>Avaliações do público</h1>
-                <img class="estrelas" src="" alt="estrelas">
-                <h3>Média geral</h3>
-                <h1>298</h1>
-                <h3>Avaliações</h3>
-                <button>Escrever Avaliação</button>
-            </div>
-
-            <div class="comentarios">
-                <h1>Comentrários dos Usuários</h1>
-
-                <div class="card-avaliacao">
-                    <img class="foto-perfil-avaliante" src="" alt="">
-                    <h1>Marina Silva</h1>
-                    <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
-                    <h3>14/01/2024</h3>
-                    <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
-                        momentos previsíveis, mas no geral uma ótima experiência.</p>
-                    <img class="like" src="" alt="like">
-                    <p>18</p>
-                    <img class="unlike" src="" alt="unlike">
-                    <p>5</p>
+                <div class="av-esquerda">
+                    <img class="estrelas" src="" alt="estrelas">
+                    <h3>Média geral</h3>
+                </div>
+                <div class="av-direita">
+                    <h1>298</h1>
+                    <h3>Avaliações</h3>
                 </div>
             </div>
+
+            <button>Escrever Avaliação</button>
+
+            <div class="comentarios">
+                <h2>Comentários dos Usuários</h2>
+
+                <div class="comentario-vazio">
+                    <img src="" alt="Ícone de comentário">
+                    <p>Ainda não há avaliações para este filme.<br>Seja o primeiro a compartilhar sua opinião!</p>
+                </div>
+            </div>
+
         </section>
+    </section>
 
-        <!-- FILME 4 -->
+    <div class="quebra">
+        <div class="linha-esquerda"></div>
+        <img class="fita" src="" alt="Fita ">
+        <div class="linha-direita"></div>
+    </div>
 
+    <!-- FILME 4 -->
+
+    <section class="Filme">
         <h1 class="titulo-filme">Sadako</h1>
         <ul>
             <li><img src="estrela.png" alt="estrela"> 8.5</li>
@@ -331,115 +393,129 @@
 
         <button>Assistir Agora</button>
 
-        <article class="sinopse">
-            <h1>Sinopse</h1>
-            <p>Uma terapeuta tenta ajudar uma jovem garota com amnésia que parece ter conexões com eventos
-                sobrenaturais. Enquanto isso, vídeos amaldiçoados começam a circular novamente na internet, trazendo de
-                volta a terrível presença de Sadako Yamamura, a origem de todas as maldições.</p>
-        </article>
+        <section class="container">
+            <section class="esquerda">
+                <article class="sinopse">
+                    <h1>Sinopse</h1>
+                    <p>Uma terapeuta tenta ajudar uma jovem garota com amnésia que parece ter conexões com eventos
+                        sobrenaturais. Enquanto isso, vídeos amaldiçoados começam a circular novamente na internet,
+                        trazendo
+                        de
+                        volta a terrível presença de Sadako Yamamura, a origem de todas as maldições.</p>
+                </article>
 
-        <div class="elenco">
-            <h1>Elenco</h1>
-            <p>Himeka Himejima</p>
-            <p>Elaiza Ikeda</p>
-            <p>Takashi Tsukamoto</p>
-            <p>Ren Kiriyama</p>
-            <p>Hiroya Shimizu</p>
-        </div>
-
-        <div class="cenas">
-            <h1>Cenas</h1>
-            <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
-            <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
-            <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
-        </div>
-
-        <div class="informacoes">
-            <h1>informacoes</h1>
-
-            <p>Diretor</p>
-            <h3>Hideo Nakata</h3>
-
-            <p>Ano</p>
-            <h3>2019</h3>
-
-            <p>Duração</p>
-            <h3>99 min</h3>
-        </div>
-
-        <div class="trailer">
-            <h1>Trailer</h1>
-            <video src="https://www.youtube.com/watch?v=VzCpjm3C0lE"></video>
-        </div>
-
-        <div class="buttons">
-            <button>Assistir Filme Completo</button>
-            <button>Adicionar à lista</button>
-            <button>Compartilhar</button>
-        </div>
-
-        <section class="avaliacao-publico">
-            <div class="visao-geral">
-                <h1>Avaliações do público</h1>
-                <img class="estrelas" src="" alt="estrelas">
-                <h3>Média geral</h3>
-                <h1>298</h1>
-                <h3>Avaliações</h3>
-                <button>Escrever Avaliação</button>
-            </div>
-
-            <div class="comentarios">
-                <h1>Comentrários dos Usuários</h1>
-
-                <div class="card-avaliacao">
-                    <img class="foto-perfil-avaliante" src="" alt="">
-                    <h1>Marina Silva</h1>
-                    <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
-                    <h3>14/01/2024</h3>
-                    <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
-                        momentos previsíveis, mas no geral uma ótima experiência.</p>
-                    <img class="like" src="" alt="like">
-                    <p>18</p>
-                    <img class="unlike" src="" alt="unlike">
-                    <p>5</p>
+                <div class="elenco">
+                    <h1>Elenco</h1>
+                    <p>Himeka Himejima</p>
+                    <p>Elaiza Ikeda</p>
+                    <p>Takashi Tsukamoto</p>
+                    <p>Ren Kiriyama</p>
+                    <p>Hiroya Shimizu</p>
                 </div>
 
+                <div class="cenas">
+                    <h1>Cenas</h1>
+                    <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
+                    <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
+                    <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
+                </div>
+            </section>
+
+            <section class="direita">
+                <div class="informacoes">
+                    <h1>informacoes</h1>
+
+                    <p>Diretor</p>
+                    <h3>Hideo Nakata</h3>
+
+                    <p>Ano</p>
+                    <h3>2019</h3>
+
+                    <p>Duração</p>
+                    <h3>99 min</h3>
+                </div>
+
+                <div class="trailer">
+                    <h1>Trailer</h1>
+                    <video src="https://www.youtube.com/watch?v=VzCpjm3C0lE"></video>
+                </div>
+
+                <div class="buttons">
+                    <button>Assistir Filme Completo</button>
+                    <button>Adicionar à lista</button>
+                    <button>Compartilhar</button>
+                </div>
+            </section>
+        </section>
+
+        <section class="avaliacao-publico">
+
+            <div class="visao-geral">
+                <h1>Avaliações do público</h1>
+                <div class="av-esquerda">
+                    <img class="estrelas" src="" alt="estrelas">
+                    <h3>Média geral</h3>
+                </div>
+                <div class="av-direita">
+                    <h1>298</h1>
+                    <h3>Avaliações</h3>
+                </div>
             </div>
+
+            <button>Escrever Avaliação</button>
+
+            <div class="comentarios">
+                <h2>Comentários dos Usuários</h2>
+
+                <div class="comentario-vazio">
+                    <img src="" alt="Ícone de comentário">
+                    <p>Ainda não há avaliações para este filme.<br>Seja o primeiro a compartilhar sua opinião!</p>
+                </div>
+            </div>
+
         </section>
     </section>
 
     <footer>
-        <img src="" alt="Logo">
-        <h1>Tenebris</h1>
-        <p>Sua plataforma definitiva para filmes de terror. Descubra os clássicos, explore novos lançamentos e
-            mergulhe
-            no mundo do sobrenatural.</p>
+        <div class="footer-esquerda">
+            <img src="" alt="Logo">
+            <p>Sua plataforma definitiva para filmes de terror. Descubra os clássicos, explore novos lançamentos e
+                mergulhe
+                no mundo do sobrenatural.</p>
 
-        <ul>
-            <li><a href=""><img src="" alt="facebook"></a></li>
-            <li><a href=""><img src="" alt="twitter"></a></li>
-            <li><a href=""><img src="" alt="instagram"></a></li>
-            <li><a href=""><img src="" alt="youtube"></a></li>
-        </ul>
+            <ul>
+                <li><i class="fab fa-facebook icon-facebook"></i></li>
+                <li><i class="fab fa-twitter icon-twitter"></i></li>
+                <li><i class="fab fa-instagram icon-instagram"></i></li>
+                <li><i class="fab fa-youtube icon-youtube"></i></li>
+            </ul>
+        </div>
 
-        <h2>Navegação</h2>
-        <ul id="ul-nav">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Filmes</a></li>
-            <li><a href="#">Séries</a></li>
-            <li><a href="#">lançamentos</a></li>
-            <li><a href="#">Top Terror</a></li>
-        </ul>
+        <div class="footer-centro">
+            <h2>Navegação</h2>
+            <ul id="ul-nav">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Filmes</a></li>
+                <li><a href="#">Séries</a></li>
+                <li><a href="#">lançamentos</a></li>
+                <li><a href="#">Top Terror</a></li>
+            </ul>
+        </div>
 
-        <h2>Suporte</h2>
-        <ul id="ul-suporte">
-            <li><a href="#">Central de ajuda</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#">Privacidade</a></li>
-            <li><a href="#">Termos de uso</a></li>
-            <li><a href="#">Sobre nós</a></li>
-        </ul>
-        <p>&copy; Tenebris. Todos os direitos reservados. | Uma experiência aterrorizante em cada clique</p>
+        <div class="footer-direita">
+            <h2>Suporte</h2>
+            <ul id="ul-suporte">
+                <li><a href="#">Central de ajuda</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Privacidade</a></li>
+                <li><a href="#">Termos de uso</a></li>
+                <li><a href="#">Sobre nós</a></li>
+            </ul>
+        </div>
     </footer>
+
+    <div class="linha"></div>
+    <p class="copyright">&copy; Tenebris. Todos os direitos reservados. | Uma experiência aterrorizante em cada clique
+    </p>
 
 </html>

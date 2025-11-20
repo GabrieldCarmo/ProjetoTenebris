@@ -4,19 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/panico.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <title>Document</title>
+    <title>Pânico</title>
 </head>
 
 <body>
     <header>
-        <!-- Botão do menu hambúrguer -->
         <button class="menu-hamburguer" id="menu-hamburguer">
             ☰
         </button>
         <img src="" alt="Logo">
-        <h1>Tenebris</h1>
     </header>
+
     <section id="bannerpanico">
         <h1>Panico</h1>
     </section>
@@ -27,7 +27,7 @@
         <div class="container-linha-tempo">
             <button id="voltar">⟨</button>
 
-            <div class="linha-tempo" id="linha-tempo">
+            <div id="linha-tempo">
                 <div class="quadro">
                     <img src="" alt="Panico">
                     <h3>1996</h3>
@@ -49,12 +49,17 @@
 
             <button id="avancar">⟩</button>
         </div>
-
     </section>
 
-    <!-- FILME 1 -->
+    <div class="quebra">
+        <div class="linha-esquerda"></div>
+        <img class="fita" src="" alt="Fita ">
+        <div class="linha-direita"></div>
+    </div>
 
-    <section class="Filmes">
+    <!-- FILME 1 -->
+    <section class="Filme">
+
         <h1 class="titulo-filme">Scream</h1>
         <ul>
             <li><img src="estrela.png" alt="estrela"> 8.5</li>
@@ -65,86 +70,100 @@
 
         <button>Assistir Agora</button>
 
-        <article class="sinopse">
-            <h1>Sinopse</h1>
-            <p>Após o brutal assassinato de uma jovem, a pequena cidade de Woodsboro é abalada por uma onda de crimes
-                cometidos por um assassino mascarado conhecido como Ghostface. Sidney Prescott se torna o principal alvo
-                enquanto tenta sobreviver e descobrir quem está por trás da máscara.</p>
-        </article>
+        <section class="container">
+            <section class="esquerda">
+                <article class="sinopse">
+                    <h1>Sinopse</h1>
+                    <p>Após o brutal assassinato de uma jovem, a pequena cidade de Woodsboro é abalada por uma onda de
+                        crimes
+                        cometidos por um assassino mascarado conhecido como Ghostface. Sidney Prescott se torna o
+                        principal alvo
+                        enquanto tenta sobreviver e descobrir quem está por trás da máscara.</p>
+                </article>
 
-        <div class="elenco">
-            <h1>Elenco</h1>
-            <p>Neve Campbell</p>
-            <p>Courteney Cox</p>
-            <p>David Arquette</p>
-            <p>Skeet Ulrich</p>
-            <p>Matthew Lillard</p>
-            <p>Rose McGowan</p>
-            <p>Jamie Kennedy</p>
-        </div>
+                <div class="elenco">
+                    <h1>Elenco</h1>
+                    <p>Neve Campbell</p>
+                    <p>Courteney Cox</p>
+                    <p>David Arquette</p>
+                    <p>Skeet Ulrich</p>
+                    <p>Matthew Lillard</p>
+                    <p>Rose McGowan</p>
+                    <p>Jamie Kennedy</p>
+                </div>
 
-        <div class="cenas">
-            <h1>Cenas</h1>
-            <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
-            <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
-            <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
-        </div>
+                <div class="cenas">
+                    <h1>Cenas</h1>
+                    <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
+                    <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
+                    <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
+                </div>
+            </section>
 
-        <div class="informacoes">
-            <h1>informacoes</h1>
+            <section class="direita">
+                <div class="informacoes">
+                    <h1>informacoes</h1>
 
-            <p>Diretor</p>
-            <h3>Wes Craven</h3>
+                    <p>Diretor</p>
+                    <h3>Wes Craven</h3>
 
-            <p>Ano</p>
-            <h3>1996</h3>
+                    <p>Ano</p>
+                    <h3>1996</h3>
 
-            <p>Duração</p>
-            <h3>111 min</h3>
-        </div>
+                    <p>Duração</p>
+                    <h3>111 min</h3>
+                </div>
 
-        <div class="trailer">
-            <h1>Trailer</h1>
-            <video src="https://www.youtube.com/watch?v=AWm_mkbdpCA"></video>
-        </div>
+                <div class="trailer">
+                    <h1>Trailer</h1>
+                    <video src="https://www.youtube.com/watch?v=AWm_mkbdpCA"></video>
+                </div>
 
-        <div class="buttons">
-            <button>Assistir Filme Completo</button>
-            <button>Adicionar à lista</button>
-            <button>Compartilhar</button>
-        </div>
+                <div class="buttons">
+                    <button>Assistir Filme Completo</button>
+                    <button>Adicionar à lista</button>
+                    <button>Compartilhar</button>
+                </div>
+            </section>
+        </section>
+
         <section class="avaliacao-publico">
 
             <div class="visao-geral">
                 <h1>Avaliações do público</h1>
-                <img class="estrelas" src="" alt="estrelas">
-                <h3>Média geral</h3>
-                <h1>298</h1>
-                <h3>Avaliações</h3>
-                <button>Escrever Avaliação</button>
+                <div class="av-esquerda">
+                    <img class="estrelas" src="" alt="estrelas">
+                    <h3>Média geral</h3>
+                </div>
+                <div class="av-direita">
+                    <h1>298</h1>
+                    <h3>Avaliações</h3>
+                </div>
             </div>
+
+            <button>Escrever Avaliação</button>
 
             <div class="comentarios">
-                <h1>Comentrários dos Usuários</h1>
+                <h2>Comentários dos Usuários</h2>
 
-                <div class="card-avaliacao">
-                    <img class="foto-perfil-avaliante" src="" alt="">
-                    <h1>Marina Silva</h1>
-                    <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
-                    <h3>14/01/2024</h3>
-                    <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
-                        momentos previsíveis, mas no geral uma ótima experiência.</p>
-                    <img class="like" src="" alt="like">
-                    <p>18</p>
-                    <img class="unlike" src="" alt="unlike">
-                    <p>5</p>
+                <div class="comentario-vazio">
+                    <img src="" alt="Ícone de comentário">
+                    <p>Ainda não há avaliações para este filme.<br>Seja o primeiro a compartilhar sua opinião!</p>
                 </div>
-
             </div>
+
         </section>
+    </section>
 
-        <!-- FILME 2 -->
+    <div class="quebra">
+        <div class="linha-esquerda"></div>
+        <img class="fita" src="" alt="Fita ">
+        <div class="linha-direita"></div>
+    </div>
 
+    <!-- FILME 2 -->
+
+    <section class="Filme">
         <h1 class="titulo-filme">Scream 2</h1>
         <ul>
             <li><img src="estrela.png" alt="estrela"> 8.5</li>
@@ -155,86 +174,101 @@
 
         <button>Assistir Agora</button>
 
-        <article class="sinopse">
-            <h1>Sinopse</h1>
-            <p>Dois anos após os eventos em Woodsboro, Sidney tenta recomeçar a vida na faculdade. No entanto, uma nova
-                onda de assassinatos inspirados no filme Stab, baseado nos crimes originais, traz Ghostface de volta à
-                ação.</p>
-        </article>
+        <section class="container">
+            <section class="esquerda">
+                <article class="sinopse">
+                    <h1>Sinopse</h1>
+                    <p>Dois anos após os eventos em Woodsboro, Sidney tenta recomeçar a vida na faculdade. No entanto,
+                        uma nova
+                        onda de assassinatos inspirados no filme Stab, baseado nos crimes originais, traz Ghostface de
+                        volta à
+                        ação.</p>
+                </article>
 
-        <div class="elenco">
-            <h1>Elenco</h1>
-            <p>Neve Campbell</p>
-            <p>Courteney Cox</p>
-            <p>David Arquette</p>
-            <p>Jerry O’Connell</p>
-            <p>Timothy Olyphant</p>
-            <p>Liev Schreiber</p>
-            <p>Jada Pinkett Smith</p>
-        </div>
+                <div class="elenco">
+                    <h1>Elenco</h1>
+                    <p>Neve Campbell</p>
+                    <p>Courteney Cox</p>
+                    <p>David Arquette</p>
+                    <p>Jerry O’Connell</p>
+                    <p>Timothy Olyphant</p>
+                    <p>Liev Schreiber</p>
+                    <p>Jada Pinkett Smith</p>
+                </div>
 
-        <div class="cenas">
-            <h1>Cenas</h1>
-            <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
-            <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
-            <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
-        </div>
+                <div class="cenas">
+                    <h1>Cenas</h1>
+                    <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
+                    <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
+                    <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
+                </div>
+            </section>
 
-        <div class="informacoes">
-            <h1>informacoes</h1>
+            <section class="direita">
 
-            <p>Diretor</p>
-            <h3>Wes Craven</h3>
+                <div class="informacoes">
+                    <h1>informacoes</h1>
 
-            <p>Ano</p>
-            <h3>1997</h3>
+                    <p>Diretor</p>
+                    <h3>Wes Craven</h3>
 
-            <p>Duração</p>
-            <h3>120 min</h3>
-        </div>
+                    <p>Ano</p>
+                    <h3>1997</h3>
 
-        <div class="trailer">
-            <h1>Trailer</h1>
-            <video src="https://www.youtube.com/watch?v=fEek72m0QJQ"></video>
-        </div>
+                    <p>Duração</p>
+                    <h3>120 min</h3>
+                </div>
 
-        <div class="buttons">
-            <button>Assistir Filme Completo</button>
-            <button>Adicionar à lista</button>
-            <button>Compartilhar</button>
-        </div>
+                <div class="trailer">
+                    <h1>Trailer</h1>
+                    <video src="https://www.youtube.com/watch?v=fEek72m0QJQ"></video>
+                </div>
+
+                <div class="buttons">
+                    <button>Assistir Filme Completo</button>
+                    <button>Adicionar à lista</button>
+                    <button>Compartilhar</button>
+                </div>
+            </section>
+        </section>
+
         <section class="avaliacao-publico">
 
             <div class="visao-geral">
                 <h1>Avaliações do público</h1>
-                <img class="estrelas" src="" alt="estrelas">
-                <h3>Média geral</h3>
-                <h1>298</h1>
-                <h3>Avaliações</h3>
-                <button>Escrever Avaliação</button>
+                <div class="av-esquerda">
+                    <img class="estrelas" src="" alt="estrelas">
+                    <h3>Média geral</h3>
+                </div>
+                <div class="av-direita">
+                    <h1>298</h1>
+                    <h3>Avaliações</h3>
+                </div>
             </div>
+
+            <button>Escrever Avaliação</button>
 
             <div class="comentarios">
-                <h1>Comentrários dos Usuários</h1>
+                <h2>Comentários dos Usuários</h2>
 
-                <div class="card-avaliacao">
-                    <img class="foto-perfil-avaliante" src="" alt="">
-                    <h1>Marina Silva</h1>
-                    <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
-                    <h3>14/01/2024</h3>
-                    <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
-                        momentos previsíveis, mas no geral uma ótima experiência.</p>
-                    <img class="like" src="" alt="like">
-                    <p>18</p>
-                    <img class="unlike" src="" alt="unlike">
-                    <p>5</p>
+                <div class="comentario-vazio">
+                    <img src="" alt="Ícone de comentário">
+                    <p>Ainda não há avaliações para este filme.<br>Seja o primeiro a compartilhar sua opinião!</p>
                 </div>
-
             </div>
+
         </section>
+    </section>
 
-        <!-- FILME 3 -->
+    <div class="quebra">
+        <div class="linha-esquerda"></div>
+        <img class="fita" src="" alt="Fita ">
+        <div class="linha-direita"></div>
+    </div>
 
+    <!-- FILME 3 -->
+
+    <section class="Filme">
         <h1 class="titulo-filme">Scream 3</h1>
         <ul>
             <li><img src="estrela.png" alt="estrela"> 8.5</li>
@@ -245,84 +279,99 @@
 
         <button>Assistir Agora</button>
 
-        <article class="sinopse">
-            <h1>Sinopse</h1>
-            <p>Durante as filmagens de Stab 3, uma nova série de assassinatos começa em Hollywood. Sidney, isolada e
-                tentando superar o trauma, precisa encarar Ghostface novamente para encerrar de vez a matança.</p>
-        </article>
+        <section class="container">
+            <section class="esquerda">
+                <article class="sinopse">
+                    <h1>Sinopse</h1>
+                    <p>Durante as filmagens de Stab 3, uma nova série de assassinatos começa em Hollywood. Sidney,
+                        isolada e
+                        tentando superar o trauma, precisa encarar Ghostface novamente para encerrar de vez a matança.
+                    </p>
+                </article>
 
-        <div class="elenco">
-            <h1>Elenco</h1>
-            <p>Neve Campbell</p>
-            <p>Courteney Cox</p>
-            <p>David Arquette</p>
-            <p>Parker Posey</p>
-            <p>Patrick Dempsey</p>
-            <p>Scott Foley</p>
-            <p>Lance Henriksen</p>
-        </div>
+                <div class="elenco">
+                    <h1>Elenco</h1>
+                    <p>Neve Campbell</p>
+                    <p>Courteney Cox</p>
+                    <p>David Arquette</p>
+                    <p>Parker Posey</p>
+                    <p>Patrick Dempsey</p>
+                    <p>Scott Foley</p>
+                    <p>Lance Henriksen</p>
+                </div>
 
-        <div class="cenas">
-            <h1>Cenas</h1>
-            <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
-            <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
-            <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
-        </div>
+                <div class="cenas">
+                    <h1>Cenas</h1>
+                    <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
+                    <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
+                    <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
+                </div>
+            </section>
 
-        <div class="informacoes">
-            <h1>informacoes</h1>
+            <section class="direita">
+                <div class="informacoes">
+                    <h1>informacoes</h1>
 
-            <p>Diretor</p>
-            <h3>Wes Craven</h3>
+                    <p>Diretor</p>
+                    <h3>Wes Craven</h3>
 
-            <p>Ano</p>
-            <h3>2000</h3>
+                    <p>Ano</p>
+                    <h3>2000</h3>
 
-            <p>Duração</p>
-            <h3>116 min</h3>
-        </div>
+                    <p>Duração</p>
+                    <h3>116 min</h3>
+                </div>
 
-        <div class="trailer">
-            <h1>Trailer</h1>
-            <video src="https://www.youtube.com/watch?v=_XJahGpfq9E"></video>
-        </div>
+                <div class="trailer">
+                    <h1>Trailer</h1>
+                    <video src="https://www.youtube.com/watch?v=_XJahGpfq9E"></video>
+                </div>
 
-        <div>
-            <button>Assistir Filme Completo</button>
-            <button>Adicionar à lista</button>
-            <button>Compartilhar</button>
-        </div>
+                <div class="buttons">
+                    <button>Assistir Filme Completo</button>
+                    <button>Adicionar à lista</button>
+                    <button>Compartilhar</button>
+                </div>
+            </section>
+        </section>
+
         <section class="avaliacao-publico">
 
             <div class="visao-geral">
                 <h1>Avaliações do público</h1>
-                <img class="estrelas" src="" alt="estrelas">
-                <h3>Média geral</h3>
-                <h1>298</h1>
-                <h3>Avaliações</h3>
-                <button>Escrever Avaliação</button>
-            </div>
-
-            <div class="comentarios">
-                <h1>Comentrários dos Usuários</h1>
-
-                <div class="card-avaliacao">
-                    <img class="foto-perfil-avaliante" src="" alt="">
-                    <h1>Marina Silva</h1>
-                    <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
-                    <h3>14/01/2024</h3>
-                    <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
-                        momentos previsíveis, mas no geral uma ótima experiência.</p>
-                    <img class="like" src="" alt="like">
-                    <p>18</p>
-                    <img class="unlike" src="" alt="unlike">
-                    <p>5</p>
+                <div class="av-esquerda">
+                    <img class="estrelas" src="" alt="estrelas">
+                    <h3>Média geral</h3>
+                </div>
+                <div class="av-direita">
+                    <h1>298</h1>
+                    <h3>Avaliações</h3>
                 </div>
             </div>
+
+            <button>Escrever Avaliação</button>
+
+            <div class="comentarios">
+                <h2>Comentários dos Usuários</h2>
+
+                <div class="comentario-vazio">
+                    <img src="" alt="Ícone de comentário">
+                    <p>Ainda não há avaliações para este filme.<br>Seja o primeiro a compartilhar sua opinião!</p>
+                </div>
+            </div>
+
         </section>
+    </section>
 
-        <!-- FILME 4 -->
+    <div class="quebra">
+        <div class="linha-esquerda"></div>
+        <img class="fita" src="" alt="Fita ">
+        <div class="linha-direita"></div>
+    </div>
 
+    <!-- FILME 4 -->
+
+    <section class="Filme">
         <h1 class="titulo-filme">Scream 4</h1>
         <ul>
             <li><img src="estrela.png" alt="estrela"> 8.5</li>
@@ -333,86 +382,101 @@
 
         <button>Assistir Agora</button>
 
-        <article class="sinopse">
-            <h1>Sinopse</h1>
-            <p>Dez anos após os últimos assassinatos, Sidney retorna a Woodsboro para divulgar seu livro de autoajuda.
-                Mas a volta também desperta um novo Ghostface, que reinicia o ciclo de terror com a nova geração de
-                adolescentes.</p>
-        </article>
+        <section class="container">
+            <section class="esquerda">
+                <article class="sinopse">
+                    <h1>Sinopse</h1>
+                    <p>Dez anos após os últimos assassinatos, Sidney retorna a Woodsboro para divulgar seu livro de
+                        autoajuda.
+                        Mas a volta também desperta um novo Ghostface, que reinicia o ciclo de terror com a nova geração
+                        de
+                        adolescentes.</p>
+                </article>
 
-        <div class="elenco">
-            <h1>Elenco</h1>
-            <p>Neve Campbell</p>
-            <p>Courteney Cox</p>
-            <p>David Arquette</p>
-            <p>Emma Roberts</p>
-            <p>Hayden Panettiere</p>
-            <p>Rory Culkin</p>
-            <p>Alison Brie</p>
-        </div>
-
-        <div class="cenas">
-            <h1>Cenas</h1>
-            <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
-            <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
-            <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
-        </div>
-
-        <div class="informacoes">
-            <h1>informacoes</h1>
-
-            <p>Diretor</p>
-            <h3>Wes Craven</h3>
-
-            <p>Ano</p>
-            <h3>2011</h3>
-
-            <p>Duração</p>
-            <h3>111 min</h3>
-        </div>
-
-        <div class="trailer">
-            <h1>Trailer</h1>
-            <video src="https://www.youtube.com/watch?v=Tm92k7A9xwE"></video>
-        </div>
-
-        <div class="buttons">
-            <button>Assistir Filme Completo</button>
-            <button>Adicionar à lista</button>
-            <button>Compartilhar</button>
-        </div>
-
-        <section class="avaliacao-publico">
-            <div class="visao-geral">
-                <h1>Avaliações do público</h1>
-                <img class="estrelas" src="" alt="estrelas">
-                <h3>Média geral</h3>
-                <h1>298</h1>
-                <h3>Avaliações</h3>
-                <button>Escrever Avaliação</button>
-            </div>
-
-            <div class="comentarios">
-                <h1>Comentrários dos Usuários</h1>
-
-                <div class="card-avaliacao">
-                    <img class="foto-perfil-avaliante" src="" alt="">
-                    <h1>Marina Silva</h1>
-                    <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
-                    <h3>14/01/2024</h3>
-                    <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
-                        momentos previsíveis, mas no geral uma ótima experiência.</p>
-                    <img class="like" src="" alt="like">
-                    <p>18</p>
-                    <img class="unlike" src="" alt="unlike">
-                    <p>5</p>
+                <div class="elenco">
+                    <h1>Elenco</h1>
+                    <p>Neve Campbell</p>
+                    <p>Courteney Cox</p>
+                    <p>David Arquette</p>
+                    <p>Emma Roberts</p>
+                    <p>Hayden Panettiere</p>
+                    <p>Rory Culkin</p>
+                    <p>Alison Brie</p>
                 </div>
 
-            </div>
+                <div class="cenas">
+                    <h1>Cenas</h1>
+                    <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
+                    <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
+                    <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
+                </div>
+            </section>
+
+            <section class="direita">
+
+                <div class="informacoes">
+                    <h1>informacoes</h1>
+
+                    <p>Diretor</p>
+                    <h3>Wes Craven</h3>
+
+                    <p>Ano</p>
+                    <h3>2011</h3>
+
+                    <p>Duração</p>
+                    <h3>111 min</h3>
+                </div>
+
+                <div class="trailer">
+                    <h1>Trailer</h1>
+                    <video src="https://www.youtube.com/watch?v=Tm92k7A9xwE"></video>
+                </div>
+
+                <div class="buttons">
+                    <button>Assistir Filme Completo</button>
+                    <button>Adicionar à lista</button>
+                    <button>Compartilhar</button>
+                </div>
+            </section>
         </section>
 
-        <!-- FILME 5 -->
+        <section class="avaliacao-publico">
 
+            <div class="visao-geral">
+                <h1>Avaliações do público</h1>
+                <div class="av-esquerda">
+                    <img class="estrelas" src="" alt="estrelas">
+                    <h3>Média geral</h3>
+                </div>
+                <div class="av-direita">
+                    <h1>298</h1>
+                    <h3>Avaliações</h3>
+                </div>
+            </div>
+
+            <button>Escrever Avaliação</button>
+
+            <div class="comentarios">
+                <h2>Comentários dos Usuários</h2>
+
+                <div class="comentario-vazio">
+                    <img src="" alt="Ícone de comentário">
+                    <p>Ainda não há avaliações para este filme.<br>Seja o primeiro a compartilhar sua opinião!</p>
+                </div>
+            </div>
+
+        </section>
+    </section>
+
+    <div class="quebra">
+        <div class="linha-esquerda"></div>
+        <img class="fita" src="" alt="Fita ">
+        <div class="linha-direita"></div>
+    </div>
+
+    <!-- FILME 5 -->
+
+    <section class="Filme">
         <h1 class="titulo-filme">Scream 5</h1>
         <ul>
             <li><img src="estrela.png" alt="estrela"> 8.5</li>
@@ -423,85 +487,98 @@
 
         <button>Assistir Agora</button>
 
-        <article class="sinopse">
-            <h1>Sinopse</h1>
-            <p>Vinte e cinco anos depois dos assassinatos originais, um novo Ghostface surge em Woodsboro, forçando
-                Sidney, Gale e Dewey a retornarem para enfrentar mais uma vez o passado sangrento.</p>
-        </article>
+        <section class="container">
+            <section class="esquerda">
+                <article class="sinopse">
+                    <h1>Sinopse</h1>
+                    <p>Vinte e cinco anos depois dos assassinatos originais, um novo Ghostface surge em Woodsboro,
+                        forçando
+                        Sidney, Gale e Dewey a retornarem para enfrentar mais uma vez o passado sangrento.</p>
+                </article>
 
-        <div class="elenco">
-            <h1>Elenco</h1>
-            <p>Neve Campbell</p>
-            <p>Courteney Cox</p>
-            <p>David Arquette</p>
-            <p>Melissa Barrera</p>
-            <p>Jenna Ortega</p>
-            <p>Jack Quaid</p>
-            <p>Dylan Minnette</p>
-        </div>
-
-        <div class="cenas">
-            <h1>Cenas</h1>
-            <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
-            <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
-            <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
-        </div>
-
-        <div class="informacoes">
-            <h1>informacoes</h1>
-
-            <p>Diretores</p>
-            <h3>Matt Bettinelli-Olpin, Tyler Gillett</h3>
-
-            <p>Ano</p>
-            <h3>2022</h3>
-
-            <p>Duração</p>
-            <h3>114 min</h3>
-        </div>
-
-        <div class="trailer">
-            <h1>Trailer</h1>
-            <video src="https://www.youtube.com/watch?v=beToTslH17s"></video>
-        </div>
-
-        <div class="buttons">
-            <button>Assistir Filme Completo</button>
-            <button>Adicionar à lista</button>
-            <button>Compartilhar</button>
-        </div>
-
-        <section class="avaliacao-publico">
-            <div class="visao-geral">
-                <h1>Avaliações do público</h1>
-                <img class="estrelas" src="" alt="estrelas">
-                <h3>Média geral</h3>
-                <h1>298</h1>
-                <h3>Avaliações</h3>
-                <button>Escrever Avaliação</button>
-            </div>
-
-            <div class="comentarios">
-                <h1>Comentrários dos Usuários</h1>
-
-                <div class="card-avaliacao">
-                    <img class="foto-perfil-avaliante" src="" alt="">
-                    <h1>Marina Silva</h1>
-                    <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
-                    <h3>14/01/2024</h3>
-                    <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
-                        momentos previsíveis, mas no geral uma ótima experiência.</p>
-                    <img class="like" src="" alt="like">
-                    <p>18</p>
-                    <img class="unlike" src="" alt="unlike">
-                    <p>5</p>
+                <div class="elenco">
+                    <h1>Elenco</h1>
+                    <p>Neve Campbell</p>
+                    <p>Courteney Cox</p>
+                    <p>David Arquette</p>
+                    <p>Melissa Barrera</p>
+                    <p>Jenna Ortega</p>
+                    <p>Jack Quaid</p>
+                    <p>Dylan Minnette</p>
                 </div>
 
-            </div>
+                <div class="cenas">
+                    <h1>Cenas</h1>
+                    <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
+                    <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
+                    <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
+                </div>
+            </section>
+
+            <section class="direita">
+                <div class="informacoes">
+                    <h1>informacoes</h1>
+
+                    <p>Diretores</p>
+                    <h3>Matt Bettinelli-Olpin, Tyler Gillett</h3>
+
+                    <p>Ano</p>
+                    <h3>2022</h3>
+
+                    <p>Duração</p>
+                    <h3>114 min</h3>
+                </div>
+
+                <div class="trailer">
+                    <h1>Trailer</h1>
+                    <video src="https://www.youtube.com/watch?v=beToTslH17s"></video>
+                </div>
+
+                <div class="buttons">
+                    <button>Assistir Filme Completo</button>
+                    <button>Adicionar à lista</button>
+                    <button>Compartilhar</button>
+                </div>
+            </section>
         </section>
 
-        <!-- FILME 6 -->
+        <section class="avaliacao-publico">
 
+            <div class="visao-geral">
+                <h1>Avaliações do público</h1>
+                <div class="av-esquerda">
+                    <img class="estrelas" src="" alt="estrelas">
+                    <h3>Média geral</h3>
+                </div>
+                <div class="av-direita">
+                    <h1>298</h1>
+                    <h3>Avaliações</h3>
+                </div>
+            </div>
+
+            <button>Escrever Avaliação</button>
+
+            <div class="comentarios">
+                <h2>Comentários dos Usuários</h2>
+
+                <div class="comentario-vazio">
+                    <img src="" alt="Ícone de comentário">
+                    <p>Ainda não há avaliações para este filme.<br>Seja o primeiro a compartilhar sua opinião!</p>
+                </div>
+            </div>
+
+        </section>
+    </section>
+
+    <div class="quebra">
+        <div class="linha-esquerda"></div>
+        <img class="fita" src="" alt="Fita ">
+        <div class="linha-direita"></div>
+    </div>
+
+    <!-- FILME 6 -->
+
+    <section class="Filme">
         <h1 class="titulo-filme">Scream VI</h1>
         <ul>
             <li><img src="estrela.png" alt="estrela"> 8.5</li>
@@ -512,116 +589,137 @@
 
         <button>Assistir Agora</button>
 
-        <article class="sinopse">
-            <h1>Sinopse</h1>
-            <p>Sobreviventes dos novos ataques deixam Woodsboro e se mudam para Nova York. No entanto, a cidade grande
-                não impede o retorno do terror, quando um novo Ghostface começa uma matança ainda mais brutal.</p>
-        </article>
+        <section class="container">
+            <section class="esquerda">
+                <article class="sinopse">
+                    <h1>Sinopse</h1>
+                    <p>Sobreviventes dos novos ataques deixam Woodsboro e se mudam para Nova York. No entanto, a cidade
+                        grande
+                        não impede o retorno do terror, quando um novo Ghostface começa uma matança ainda mais brutal.
+                    </p>
+                </article>
 
-        <div class="elenco">
-            <h1>Elenco</h1>
-            <p>Melissa Barrera</p>
-            <p>Jenna Ortega</p>
-            <p>Jasmin Savoy Brown</p>
-            <p>Mason Gooding</p>
-            <p>Courteney Cox</p>
-            <p>Hayden Panettiere</p>
-            <p>Dermot Mulroney</p>
-        </div>
-
-        <div class="cenas">
-            <h1>Cenas</h1>
-            <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
-            <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
-            <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
-        </div>
-
-        <div class="informacoes">
-            <h1>informacoes</h1>
-
-            <p>Diretores</p>
-            <h3>Matt Bettinelli-Olpin, Tyler Gillett</h3>
-
-            <p>Ano</p>
-            <h3>2023</h3>
-
-            <p>Duração</p>
-            <h3>123 min</h3>
-        </div>
-
-        <div class="trailer">
-            <h1>Trailer</h1>
-            <video src="https://www.youtube.com/watch?v=h74AXqw4Opc"></video>
-        </div>
-
-        <div class="buttons">
-            <button>Assistir Filme Completo</button>
-            <button>Adicionar à lista</button>
-            <button>Compartilhar</button>
-        </div>
-
-        <section class="avaliacao-publico">
-            <div class="visao-geral">
-                <h1>Avaliações do público</h1>
-                <img class="estrelas" src="" alt="estrelas">
-                <h3>Média geral</h3>
-                <h1>298</h1>
-                <h3>Avaliações</h3>
-                <button>Escrever Avaliação</button>
-            </div>
-
-            <div class="comentarios">
-                <h1>Comentrários dos Usuários</h1>
-
-                <div class="card-avaliacao">
-                    <img class="foto-perfil-avaliante" src="" alt="">
-                    <h1>Marina Silva</h1>
-                    <img class="estrelas-avaliacao" src="" alt="estrelas-avaliacao">
-                    <h3>14/01/2024</h3>
-                    <p>Muito bom filme de terror. A cinematografia é excelente e o roteiro bem construído. Alguns
-                        momentos previsíveis, mas no geral uma ótima experiência.</p>
-                    <img class="like" src="" alt="like">
-                    <p>18</p>
-                    <img class="unlike" src="" alt="unlike">
-                    <p>5</p>
+                <div class="elenco">
+                    <h1>Elenco</h1>
+                    <p>Melissa Barrera</p>
+                    <p>Jenna Ortega</p>
+                    <p>Jasmin Savoy Brown</p>
+                    <p>Mason Gooding</p>
+                    <p>Courteney Cox</p>
+                    <p>Hayden Panettiere</p>
+                    <p>Dermot Mulroney</p>
                 </div>
 
+                <div class="cenas">
+                    <h1>Cenas</h1>
+                    <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
+                    <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
+                    <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
+                </div>
+            </section>
+
+            <section class="direita">
+
+                <div class="informacoes">
+                    <h1>informacoes</h1>
+
+                    <p>Diretores</p>
+                    <h3>Matt Bettinelli-Olpin, Tyler Gillett</h3>
+
+                    <p>Ano</p>
+                    <h3>2023</h3>
+
+                    <p>Duração</p>
+                    <h3>123 min</h3>
+                </div>
+
+                <div class="trailer">
+                    <h1>Trailer</h1>
+                    <video src="https://www.youtube.com/watch?v=h74AXqw4Opc"></video>
+                </div>
+
+                <div class="buttons">
+                    <button>Assistir Filme Completo</button>
+                    <button>Adicionar à lista</button>
+                    <button>Compartilhar</button>
+                </div>
+            </section>
+        </section>
+
+        <section class="avaliacao-publico">
+
+            <div class="visao-geral">
+                <h1>Avaliações do público</h1>
+                <div class="av-esquerda">
+                    <img class="estrelas" src="" alt="estrelas">
+                    <h3>Média geral</h3>
+                </div>
+                <div class="av-direita">
+                    <h1>298</h1>
+                    <h3>Avaliações</h3>
+                </div>
             </div>
+
+            <button>Escrever Avaliação</button>
+
+            <div class="comentarios">
+                <h2>Comentários dos Usuários</h2>
+
+                <div class="comentario-vazio">
+                    <img src="" alt="Ícone de comentário">
+                    <p>Ainda não há avaliações para este filme.<br>Seja o primeiro a compartilhar sua opinião!</p>
+                </div>
+            </div>
+
         </section>
     </section>
 
+    <div class="quebra">
+        <div class="linha-esquerda"></div>
+        <img class="fita" src="" alt="Fita ">
+        <div class="linha-direita"></div>
+    </div>
+
     <footer>
-        <img src="" alt="Logo">
-        <h1>Tenebris</h1>
-        <p>Sua plataforma definitiva para filmes de terror. Descubra os clássicos, explore novos lançamentos e mergulhe
-            no mundo do sobrenatural.</p>
+        <div class="footer-esquerda">
+            <img src="" alt="Logo">
+            <p>Sua plataforma definitiva para filmes de terror. Descubra os clássicos, explore novos lançamentos e
+                mergulhe
+                no mundo do sobrenatural.</p>
 
-        <ul>
-            <li><a href=""><img src="" alt="facebook"></a></li>
-            <li><a href=""><img src="" alt="twitter"></a></li>
-            <li><a href=""><img src="" alt="instagram"></a></li>
-            <li><a href=""><img src="" alt="youtube"></a></li>
-        </ul>
+            <ul>
+                <li><i class="fab fa-facebook icon-facebook"></i></li>
+                <li><i class="fab fa-twitter icon-twitter"></i></li>
+                <li><i class="fab fa-instagram icon-instagram"></i></li>
+                <li><i class="fab fa-youtube icon-youtube"></i></li>
+            </ul>
+        </div>
 
-        <h2>Navegação</h2>
-        <ul id="ul-nav">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Filmes</a></li>
-            <li><a href="#">Séries</a></li>
-            <li><a href="#">lançamentos</a></li>
-            <li><a href="#">Top Terror</a></li>
-        </ul>
+        <div class="footer-centro">
+            <h2>Navegação</h2>
+            <ul id="ul-nav">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Filmes</a></li>
+                <li><a href="#">Séries</a></li>
+                <li><a href="#">lançamentos</a></li>
+                <li><a href="#">Top Terror</a></li>
+            </ul>
+        </div>
 
-        <h2>Suporte</h2>
-        <ul id="ul-suporte">
-            <li><a href="#">Central de ajuda</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#">Privacidade</a></li>
-            <li><a href="#">Termos de uso</a></li>
-            <li><a href="#">Sobre nós</a></li>
-        </ul>
-        <p>&copy; Tenebris. Todos os direitos reservados. | Uma experiência aterrorizante em cada clique</p>
+        <div class="footer-direita">
+            <h2>Suporte</h2>
+            <ul id="ul-suporte">
+                <li><a href="#">Central de ajuda</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Privacidade</a></li>
+                <li><a href="#">Termos de uso</a></li>
+                <li><a href="#">Sobre nós</a></li>
+            </ul>
+        </div>
     </footer>
-</body>
+
+    <div class="linha"></div>
+    <p class="copyright">&copy; Tenebris. Todos os direitos reservados. | Uma experiência aterrorizante em cada clique
+    </p>
 
 </html>
