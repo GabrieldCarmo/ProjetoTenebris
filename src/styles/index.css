@@ -1,49 +1,41 @@
+/* RESET & BASE */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: color-mix(in hsl, hsl(0, 0%, 0%) 80%, rgb(24, 25, 32) 20%);
-    font-family: Arial, Helvetica, sans-serif;
-    color: #888888;
-}
- header {
- box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
- background: black;
- position: fixed;
- width: 100%;
- top: 0;
+/* VARIAVEIS DE COR */
+
+:root {
+  /* Cores principais */
+  --preto-principal: #030213;
+  --preto-profundo: #000000;
+
+  /* Tons de cinza */
+  --cinza-escuro: #121212;
+  --cinza-card: #1a1a1a;
+  --cinza-borda: #2a2a2a;
+  --cinza-texto: #888888;
+  --cinza-suave: #717182;
+
+  /* Branco */
+  --branco: #ffffff;
+
+  /* Destaque (terror) */
+  --vermelho-sangue: #8B0000;
+  --vermelho-sangue-claro: #A0001C;
+
+  /* Sombras */
+  --sombra-card: 0 4px 6px rgba(0, 0, 0, 0.5);
+  --sombra-hover: 0 6px 14px rgba(0, 0, 0, 0.7);
 }
 
-header, nav ul {
- display: flex;
- justify-content: space-between;
- padding: 1rem;
-}
 
-/* nav ul li {
- margin-left: ;
-}  */
 
-.logo{
-    width: 50px;
-    height: 50px;
-}
 
-.sobre{
-    background-image: url(/assets/pp4.jpg);
-    background-size: 1870px 700px;
-    background-color: rgb(0, 0, 0);
-    background-blend-mode: screen; 
-    width: 10000px;
-    height: 600px;
-    /* background-color: linear-gradient(0deg, black); */
-    
-}
 
-#h1-pagina-principal{
-    margin-top: 100px;
-    font-size: 60px;
-}
+
+
+
+
