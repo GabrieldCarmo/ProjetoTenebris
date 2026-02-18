@@ -1,3 +1,15 @@
+:root {
+  --preto: #05070d;
+  --preto-secundario: #0b1020;
+  --cinza-card: #111827;
+  --cinza-borda: #1e293b;
+  --vermelho: #8B0000;
+  --vermelho-hover: #a40000;
+  --branco: #ececf0;
+  --cinza-texto: #b5b9c4;
+  --sombra: 0 10px 30px rgba(0,0,0,.6);
+}
+
 * {
   margin: 0;
   padding: 0;
