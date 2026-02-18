@@ -100,163 +100,163 @@ header.scrolled {
   font-size: 22px;
   cursor: pointer;
 }
-/* =========================
-   SOBRE
-========================= */
 
 .sobrenos {
-  padding: 100px 20px;
-  text-align: center;
-  max-width: 1200px;
-  margin: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+    text-align: center;
 }
 
 .sobrenos > h1 {
-  font-size: 2.8rem;
-  margin-bottom: 20px;
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--branco);
 }
 
 .sobrenos > p {
-  max-width: 800px;
-  margin: 0 auto 70px auto;
-  color: var(--cinza-texto);
+    max-width: 800px;
+    margin: 0 auto 4rem auto;
+    color: var(--cinza-texto);
+    font-size: 1.05rem;
 }
 
-/* =========================
-   EQUIPE
-========================= */
-
 .equipe {
-  margin-top: 60px;
+    margin-top: 5rem;
 }
 
 .equipe h1 {
-  font-size: 2rem;
-  margin-bottom: 10px;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
 }
 
 .equipe > p {
-  margin-bottom: 50px;
-  color: var(--cinza-texto);
+    color: var(--cinza-texto);
+    margin-bottom: 3rem;
 }
 
-/* GRID */
-.equipe {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
+.equipe-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
 }
 
-/* CARD */
 .colaborador {
-  background: var(--cinza-card);
-  border: 1px solid var(--cinza-borda);
-  border-radius: 15px;
-  padding: 30px 20px;
-  width: 260px;
-  text-align: center;
-  box-shadow: var(--sombra);
-  transition: 0.3s ease;
+    background: var(--cinza-card);
+    border: 1px solid var(--cinza-borda);
+    border-radius: 14px;
+    padding: 2rem;
+    transition: 0.3s ease;
+    box-shadow: var(--sombra);
 }
 
 .colaborador:hover {
-  transform: translateY(-10px);
-  border-color: var(--vermelho);
+    transform: translateY(-10px);
+    border-color: var(--vermelho);
 }
 
-/* FOTO CIRCULAR */
 .colaborador img {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid var(--vermelho);
-  margin-bottom: 15px;
-  transition: 0.3s ease;
-}
+    width: 150px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: 3px solid var(--vermelho);
+    display: block;
+    margin: 0 auto 1rem auto;
 
-.colaborador:hover img {
-  box-shadow: 0 0 25px rgba(139, 0, 0, 0.6);
+    /* FUNDO DO CÍRCULO */
+    background: radial-gradient(
+        ellipse at center,
+        rgba(139,0,0,.35),
+        rgba(0,0,0,.95)
+    );
+
+    object-fit: cover;
 }
 
 .colaborador h2 {
-  font-size: 1.2rem;
-  margin-bottom: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
 }
 
 .colaborador p {
-  font-size: 0.9rem;
-  color: var(--cinza-texto);
-  margin-bottom: 15px;
+    color: var(--cinza-texto);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
 }
 
-/* =========================
-   BOTÕES SOCIAIS
-========================= */
-
 .colaborador button {
-  background: transparent;
-  border: 1px solid var(--cinza-borda);
-  border-radius: 50%;
-  width: 38px;
-  height: 38px;
-  margin: 5px;
-  cursor: pointer;
-  transition: 0.3s;
+    background: transparent;
+    border: 1px solid var(--cinza-borda);
+    color: var(--branco);
+    padding: 0.4rem 0.7rem;
+    margin: 0 0.3rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
 }
 
 .colaborador button:hover {
-  background: var(--vermelho);
-  border-color: var(--vermelho);
+    background: var(--vermelho);
+    border-color: var(--vermelho);
 }
-
-/* =========================
-   TECNOLOGIAS
-========================= */
 
 #techs {
-  margin-top: 100px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-  align-items: center;
-}
-
-#techs img {
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
-  filter: grayscale(100%);
-  transition: 0.3s;
-}
-
-#techs img:hover {
-  filter: grayscale(0%);
-  transform: scale(1.1);
+    margin-top: 6rem;
 }
 
 #techs h1 {
-  font-size: 1rem;
-  color: var(--cinza-texto);
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
-/* =========================
-   FRASE FINAL
-========================= */
-
-body > h1 {
-  margin-top: 120px;
-  text-align: center;
-  font-size: 1.5rem;
-  padding: 0 20px;
+.tech-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
 }
 
-body > p {
-  text-align: center;
-  margin-bottom: 100px;
-  color: var(--cinza-texto);
+.tech {
+    background: var(--cinza-card);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid var(--cinza-borda);
+    transition: 0.3s ease;
+    width: 180px;
+}
+
+.tech:hover {
+    transform: translateY(-8px);
+    border-color: var(--vermelho);
+}
+
+.tech img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.tech h2 {
+    font-size: 1rem;
+}
+
+/* ================= FRASE FINAL ================= */
+
+.frase-final {
+    margin: 6rem auto;
+    text-align: center;
+    max-width: 800px;
+}
+
+.frase-final h1 {
+    font-size: 1.6rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.frase-final p {
+    color: var(--cinza-texto);
 }
 
 footer {
@@ -365,4 +365,19 @@ footer {
     height: 2px;
     background-color: #cbced4;
     margin: auto;
+}
+
+@media (max-width: 768px) {
+    .sobrenos > h1 {
+        font-size: 2rem;
+    }
+
+    .colaborador {
+        padding: 1.5rem;
+    }
+
+    .tech {
+        width: 100%;
+        max-width: 250px;
+    }
 }
