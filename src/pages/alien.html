@@ -28,24 +28,49 @@
         <div class="container-linha-tempo">
             <button id="voltar">⟨</button>
 
-            <div id="linha-tempo">
+            <p><code>wrapAround: true</code></p>
+            <div id="linha-tempo" data-flickity-options='{ "wrapAround": true }'>
 
                 <div class="quadro">
-                    <img src="" alt="Alien 3">
-                    <h3>1992</h3>
-                    <p><strong>Alien 3</strong><br> Prisão Fiorina 161</p>
-                </div>
-
-                <div class="quadro">
-                    <img src="" alt="Alien Oitavo Passageiro">
+                    <img class="alien-img" src="/src/assets/FotosAlien/Alien.jpg" alt="Alien Oitavo Passageiro">
                     <h3>1979</h3>
                     <p><strong>Alien: O Oitavo Passageiro</strong><br> O horror começa na Nostromo</p>
                 </div>
 
                 <div class="quadro">
-                    <img src="" alt="Aliens O Resgate">
+                    <img class="alien-img" src="/src/assets/FotosAlien/aliens.jpg" alt="Aliens O Resgate">
                     <h3>1986</h3>
                     <p><strong>Aliens: O Resgate</strong><br> Retorno ao LV-426</p>
+                </div>
+
+                <div class="quadro">
+                    <img class="alien-img" src="/src/assets/FotosAlien/Alien3.jpg" alt="Alien 3">
+                    <h3>1992</h3>
+                    <p><strong>Alien 3</strong><br> Prisão Fiorina 161</p>
+                </div>
+
+                <div class="quadro">
+                    <img class="alien-img" src="/src/assets/FotosAlien/Ressurreiction.jpg" alt="Alien 3">
+                    <h3>1997</h3>
+                    <p><strong>Alien - A Ressurreição</strong><br></p>
+                </div>
+
+                <div class="quadro">
+                    <img class="alien-img" src="/src/assets/FotosAlien/Prometheus.jpg" alt="Alien 3">
+                    <h3>2012</h3>
+                    <p><strong>Prometheus</strong><br> Prisão Fiorina 161</p>
+                </div>
+
+                <div class="quadro">
+                    <img class="alien-img" src="/src/assets/FotosAlien/Covenant.jpg" alt="Alien 3">
+                    <h3>2017</h3>
+                    <p><strong>Alien: Covenant</strong><br> Prisão Fiorina 161</p>
+                </div>
+
+                <div class="quadro">
+                    <img class="alien-img" src="/src/assets/FotosAlien/Romulos.jpg" alt="Alien 3">
+                    <h3>2024</h3>
+                    <p><strong>Alien: Romulus</strong><br> Prisão Fiorina 161</p>
                 </div>
             </div>
 
@@ -55,7 +80,7 @@
 
     <div class="quebra">
         <div class="linha-esquerda"></div>
-        <img class="fita" src="" alt="Fita ">
+
         <div class="linha-direita"></div>
     </div>
 
@@ -64,9 +89,9 @@
 
         <h1 class="titulo-filme">Alien</h1>
         <ul>
-            <li><img src="estrela.png" alt="estrela"> 8.5</li>
-            <li><img src="calendario.png" alt="calendário"> 2023</li>
-            <li><img src="relogio.png" alt="relógio"> 124 min</li>
+            <li><img class="estrela" src="/src/assets/estrela.png" alt="estrela"> 8.5</li>
+            <li>1979</li>
+            <li>1h 51min</li>
             <li>Terror</li>
         </ul>
 
@@ -102,7 +127,7 @@
 
             <section class="direita">
                 <div class="informacoes">
-                    <h1>informacoes</h1>
+                    <h1>Informações</h1>
 
                     <p>Diretor</p>
                     <h3>Ridley Scott</h3>
@@ -115,12 +140,17 @@
                 </div>
 
                 <div class="trailer">
-                    <h1>Trailer</h1>
-                    <video src="https://www.youtube.com/watch?v=LjLamj-b0I8"></video>
+                    <h1 class="titulo-trailer">Trailer</h1>
+                    <video name="movie" controls class="trailer-alien">
+                        <source
+                            src="/src/assets/FotosAlien/trailers/Alien Trailer HD (Original 1979 Ridley Scott Film).mp4"
+                            type="video/mp4" />
+
+                    </video>
                 </div>
 
                 <div class="buttons">
-                    <button>Assistir Filme Completo</button>
+                    <button >Assistir Filme Completo</button>
                     <button>Adicionar à lista</button>
                     <button>Compartilhar</button>
                 </div>
@@ -132,8 +162,7 @@
             <div class="visao-geral">
                 <h1>Avaliações do público</h1>
                 <div class="av-esquerda">
-                    <img class="estrelas" src="" alt="estrelas">
-                    <h3>Média geral</h3>
+                    <img class="estrelas" src="/src/assets/estrelas.png" alt="estrelas">
                 </div>
                 <div class="av-direita">
                     <h1>298</h1>

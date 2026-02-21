@@ -143,9 +143,10 @@ header.scrolled {
     background-color: #0a0f0a;
     border: 1px solid #00aa55;
     padding: 1rem;
-    width: 220px;
+    width: 300px;
     border-radius: 8px;
     text-align: center;
+    counter-increment: quadro;
 }
 
 .quadro h3 {
@@ -157,6 +158,11 @@ header.scrolled {
 .quadro p {
     font-size: 0.9rem;
     color: #a0cfa0;
+}
+
+.alien-img{
+    height:300px;
+    width: 200px;
 }
 
 #voltar,
@@ -212,6 +218,51 @@ header.scrolled {
     color: #d0ffd0;
     max-width: 1200px;
     margin: 0 auto;
+    background-image: url(/src/assets/FotosAlien/alien1);
+    background-repeat: no-repeat;
+    background-size: 40rem;
+    background-position: center;
+    background-attachment: local;
+    
+}
+
+.estrela{
+    height: 20px;
+}
+
+.estrelas{
+    height: 140px;
+}
+
+.trailer{
+    height: 21.4rem;
+    /* width: 35rem, */
+}
+
+.trailer-alien{
+    height: 150px;
+    justify-content: center;
+}
+
+.titulo-trailer{
+    justify-content: center;
+    text-align: center;
+}
+
+#banneralien{
+    background: url(/src/assets/FotosAlien/alienbanner.jpg);
+    resize: horizontal;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: 117rem;
+    opacity: 0.2;
+}
+
+#banneralien h1{
+    font-size: 150px;
+    font-style: italic;
+    font-variant: small-caps;
+    
 }
 
 .titulo-filme {
