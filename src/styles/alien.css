@@ -113,42 +113,107 @@ header.scrolled {
     color: #00ff88;
 }
 
-.linha-tempo {
+ #linha-tempo{
     padding: 4rem 2rem;
-    text-align: center;
     position: relative;
+    text-align: center;
+    display:flex;
+    gap:20px;
+    overflow-x:auto;
+    scroll-behavior:smooth;
+}
+#linha-tempo::-webkit-scrollbar{
+    display:none;
+}
+
+#linha-tempo{
+    display:flex;
+    gap:30px;
+    overflow-x:auto;
+    scroll-behavior:smooth;
+    scroll-snap-type:x mandatory;
+    scroll-behavior:smooth;
 }
 
 .linha-tempo h1 {
     font-size: 2.5rem;
     color: #d0ffd0;
-    margin-bottom: 3rem;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .container-linha-tempo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    position: relative;
-    overflow-x: auto;
+     width:100%;
+    overflow:hidden;
+    position:relative;
+
+}
+
+.container-linha-tempo::-webkit-scrollbar {
+    display: none;
 }
 
 #linha-tempo {
-    display: flex;
-    gap: 2rem;
-    z-index: 1;
+     display:flex;
+    gap:40px;
+    justify-content:center;
+    align-items:center;
+    transition:transform 0.5s ease;
+}
+    
+
+#voltar,
+#avancar{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    
+    background:#0b7a50;
+    color:white;
+    border:none;
+    font-size:28px;
+    width:45px;
+    height:45px;
+    border-radius:8px;
+    cursor:pointer;
+    z-index:10;
 }
 
-.quadro {
-    background-color: #0a0f0a;
-    border: 1px solid #00aa55;
-    padding: 1rem;
-    width: 300px;
-    border-radius: 8px;
-    text-align: center;
-    counter-increment: quadro;
+#voltar{
+    left:20px;
+}
 
+#avancar{
+    right:20px;
+}
+
+
+
+
+.quadro {
+
+    text-align: center;
+    width:200px;
+    flex-shrink:0;
+    transition:all 0.4s ease;
+}
+
+/* cards não ativos */
+.quadro{
+    opacity:0.4;
+    filter:blur(3px);
+    transform:scale(0.85);
+}
+
+.quadro{
+    filter: blur(3px) brightness(0.6);
+    transform: scale(0.9);
+}
+
+.quadro.ativo{
+    opacity:1;
+    filter:none;
+    transform:scale(1.1);
 }
 
 .quadro h3 {
@@ -169,7 +234,7 @@ header.scrolled {
 
 .cenas {
     width: 100%;
-    text-align: center; 
+    text-align: center;
 }
 
 .cenas-fotos {
@@ -238,12 +303,87 @@ header.scrolled {
     color: #d0ffd0;
     max-width: 1200px;
     margin: 0 auto;
-    background-image: url(/src/assets/FotosAlien/alien1);
+    /* background-image: url(/src/assets/FotosAlien/alien1); */
     background-repeat: no-repeat;
     background-size: 40rem;
     background-position: center;
     background-attachment: local;
 
+}
+
+#alien1979 {
+    background: url(/src/assets/FotosAlien/alienbanner1.jpg);
+    background-repeat: no-repeat;
+    /* Não repete a imagem */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-size: cover;
+}
+
+#aliens {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), /* Filtro escuro */
+    url('/src/assets/FotosAlien/aliensbanner.jpg');
+    background-repeat: no-repeat;
+    /* Não repete a imagem */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-size: cover; 
+}
+
+#alien3{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), /* Filtro escuro */
+    url('/src/assets/FotosAlien/alien3banner.jpg');
+    background-repeat: no-repeat;
+    /* Não repete a imagem */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-size: cover; 
+}
+
+#alienRessurection{
+   background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Filtro escuro */
+    url('/src/assets/FotosAlien/alien4banner.jpg');
+    background-repeat: no-repeat;
+    /* Não repete a imagem */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-size: cover;  
+}
+
+#prometheus{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), /* Filtro escuro */
+    url('/src/assets/FotosAlien/bannerprometheus.jpg');
+    background-repeat: no-repeat;
+    /* Não repete a imagem */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-size: cover;  
+}
+
+#covenant{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), /* Filtro escuro */
+    url('/src/assets/FotosAlien/alien1');
+    background-repeat: no-repeat;
+    /* Não repete a imagem */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-size: cover; 
+}
+
+#romulus{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), /* Filtro escuro */
+    url('/src/assets/FotosAlien/bannerromulus.jpg');
+    background-repeat: no-repeat;
+    /* Não repete a imagem */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-size: cover; 
 }
 
 .estrela {
@@ -252,6 +392,11 @@ header.scrolled {
 
 .estrelas {
     height: 140px;
+}
+
+.idade{
+    width: 27px;
+
 }
 
 .trailer {
@@ -431,7 +576,8 @@ header.scrolled {
 
 .comentarios h2 {
     color: #d0ffd0;
-    margin-bottom: 2rem;
+    text-align: center;
+    margin-top: 3rem;
 }
 
 .comentario-vazio {
@@ -447,7 +593,8 @@ header.scrolled {
 .comentario-vazio p {
     color: #a0cfa0;
     font-size: 1rem;
-    line-height: 1.5;
+    margin-top: -4rem;
+    text-align: center;
 }
 
 footer {

@@ -26,12 +26,37 @@ document.addEventListener("click", (e) => {
     }
 });
 
-const header = document.querySelector("header");
+const quadros = document.querySelectorAll(".quadro");
 
-window.addEventListener("scroll", () => {
-    if (window.scrollY > 20) {
-        header.classList.add("scrolled");
-    } else {
-        header.classList.remove("scrolled");
+const btnAvancar = document.getElementById("avancar");
+const btnVoltar = document.getElementById("voltar");
+
+let indexAtual = 1;
+
+function atualizarCarousel(){
+
+    quadros.forEach(q => q.classList.remove("ativo"));
+
+    quadros[indexAtual].classList.add("ativo");
+
+}
+
+btnAvancar.addEventListener("click", () => {
+
+    if(indexAtual < quadros.length - 1){
+        indexAtual++;
     }
+
+    atualizarCarousel();
 });
+
+btnVoltar.addEventListener("click", () => {
+
+    if(indexAtual > 0){
+        indexAtual--;
+    }
+
+    atualizarCarousel();
+});
+
+atualizarCarousel();
