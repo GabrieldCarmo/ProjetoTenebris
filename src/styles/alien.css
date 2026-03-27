@@ -351,8 +351,8 @@ header.scrolled {
 
 #prometheus{
     background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), /* Filtro escuro */
-    url('/src/assets/FotosAlien/bannerprometheus.jpg');
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), /* Filtro escuro */
+    url('/src/assets/FotosAlien/Prometheus.jpg');
     background-repeat: no-repeat;
     /* Não repete a imagem */
     background-position: center;
