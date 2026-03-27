@@ -181,6 +181,7 @@ header.scrolled {
 
 #voltar{
     left:20px;
+    
 }
 
 #avancar{
@@ -290,11 +291,6 @@ header.scrolled {
     background-color: #00ff88;
 }
 
-.fita {
-    width: 80px;
-    height: auto;
-    filter: drop-shadow(0 0 10px #00ff88);
-}
 
 .Filme {
     margin-bottom: 4rem;
@@ -704,4 +700,29 @@ footer {
     height: 2px;
     background-color: #cbced4;
     margin: auto;
+}
+
+.logo1{
+    width: 62px;
+}
+
+.footer-esquerda h3{
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.footer-esquerda p{
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .quadro {
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .quadro {
+        width: 120px;
+    }
 }

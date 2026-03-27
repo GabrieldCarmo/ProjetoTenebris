@@ -59,4 +59,45 @@ btnVoltar.addEventListener("click", () => {
     atualizarCarousel();
 });
 
-atualizarCarousel();
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const container = document.getElementById("linha-tempo");
+    const quadros = document.querySelectorAll(".quadro");
+
+    const btnAvancar = document.getElementById("avancar");
+    const btnVoltar = document.getElementById("voltar");
+
+    let indexAtual = 0;
+
+    function atualizarCarousel() {
+        const card = quadros[indexAtual];
+
+        const containerWidth = container.offsetWidth;
+        const cardLeft = card.offsetLeft;
+        const cardWidth = card.offsetWidth;
+
+        const scrollPos = cardLeft - (containerWidth / 2) + (cardWidth / 2);
+
+        container.scrollTo({
+            left: scrollPos,
+            behavior: "smooth"
+        });
+
+        quadros.forEach(q => q.classList.remove("ativo"));
+        card.classList.add("ativo");
+    }
+
+    btnAvancar.addEventListener("click", () => {
+        indexAtual = (indexAtual + 1) % quadros.length;
+        atualizarCarousel();
+    });
+
+    btnVoltar.addEventListener("click", () => {
+        indexAtual = (indexAtual - 1 + quadros.length) % quadros.length;
+        atualizarCarousel();
+    });
+
+    atualizarCarousel();
+
+});

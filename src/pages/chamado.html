@@ -26,47 +26,48 @@
         <h1>Linha do Tempo</h1>
 
         <div class="container-linha-tempo">
-            <button id="voltar">⟨</button>
+            <button id="voltar" type="button">⟨</button>
 
+            
             <div id="linha-tempo">
 
                 <div class="quadro">
-                    <img src="" alt="O chamado">
+                    <img class="chamado-img" src="/src/assets/FotosChamado/chamado1.jpg" alt="O Chamado">
                     <h3>2002</h3>
-                    <p><strong>Chamado</strong><br>A maldição da fita</0p>
+                    <p><strong>Chamado</strong><br>A maldição da fita</p>
                 </div>
 
                 <div class="quadro">
-                    <img src="" alt="O chamado 2">
+                    <img class="chamado-img" src="/src/assets/FotosChamado/chamado2.jpg" alt="O Chamado 2">
                     <h3>2005</h3>
                     <p><strong>O chamado 2</strong><br>Samara retorna</p>
                 </div>
 
                 <div class="quadro">
-                    <img src="" alt="Rings">
+                    <img class="chamado-img" src="/src/assets/FotosChamado/chamado3.jpg" alt="O Chamado 3">
                     <h3>2017</h3>
                     <p><strong>Rings</strong><br>Nova geração, mesma maldição</p>
                 </div>
             </div>
 
-            <button id="avancar">⟩</button>
+            <button id="avancar" type="button">⟩</button>
         </div>
     </section>
 
     <div class="quebra">
         <div class="linha-esquerda"></div>
-        <img class="fita" src="" alt="Fita ">
         <div class="linha-direita"></div>
     </div>
 
     <!-- FILME 1 -->
-    <section class="Filme">
+    <section class="Filme" id="ring">
 
         <h1 class="titulo-filme">The Ring</h1>
         <ul>
-            <li><img src="estrela.png" alt="estrela"> 8.5</li>
-            <li><img src="calendario.png" alt="calendário"> 2023</li>
-            <li><img src="relogio.png" alt="relógio"> 124 min</li>
+            <li><img class="estrela" src="/src/assets/estrela.png" alt="estrela"> 7.1</li>
+            <li><img class="idade" src="/src/assets/14anos.png" alt=""></li>
+            <li> 2002</li>
+            <li>1 h 55 min</li>
             <li>Terror</li>
         </ul>
 
@@ -100,15 +101,16 @@
 
                 <div class="cenas">
                     <h1>Cenas</h1>
-                    <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
-                    <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
-                    <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
+                    <img class="cenas-fotos" src="/src/assets/FotosChamado/chamadofoto1.jpg" alt="Cena1">
+                    <img class="cenas-fotos" src="/src/assets/FotosChamado/chamadofoto2.jpg" alt="Cena2">
+                    <img class="cenas-fotos" src="/src/assets/FotosChamado/chamadofoto3.jpg" alt="Cena3">
+                    <img class="cenas-fotos" src="/src/assets/FotosChamado/chamadofoto4.jpg"  alt="Cena4">
                 </div>
             </section>
 
             <section class="direita">
                 <div class="informacoes">
-                    <h1>informacoes</h1>
+                    <h1>Informações</h1>
 
                     <p>Diretor</p>
                     <h3>Gore Verbinski</h3>
@@ -122,7 +124,10 @@
 
                 <div class="trailer">
                     <h1>Trailer</h1>
-                    <video src="https://www.youtube.com/watch?v=yzR2GY-ew8I"></video>
+                    <video name="movie" controls class="trailer-chamado">
+                        <source
+                            src="/src/assets/FotosChamado/Trailers/Ochamado1Trailer.mp4"
+                            type="video/mp4" />
                 </div>
 
                 <div class="buttons">
@@ -138,11 +143,10 @@
             <div class="visao-geral">
                 <h1>Avaliações do público</h1>
                 <div class="av-esquerda">
-                    <img class="estrelas" src="" alt="estrelas">
-                    <h3>Média geral</h3>
+                    <img class="estrelas" src="/src/assets/estrelas.png" alt="estrelas">
                 </div>
                 <div class="av-direita">
-                    <h1>298</h1>
+                    <h1>342</h1>
                     <h3>Avaliações</h3>
                 </div>
             </div>
@@ -153,7 +157,6 @@
                 <h2>Comentários dos Usuários</h2>
 
                 <div class="comentario-vazio">
-                    <img src="" alt="Ícone de comentário">
                     <p>Ainda não há avaliações para este filme.<br>Seja o primeiro a compartilhar sua opinião!</p>
                 </div>
             </div>
@@ -169,12 +172,13 @@
 
     <!-- FILME 2 -->
 
-    <section class="Filme">
+    <section class="Filme" id="rings2">
         <h1 class="titulo-filme">The Ring 2</h1>
         <ul>
-            <li><img src="estrela.png" alt="estrela"> 8.5</li>
-            <li><img src="calendario.png" alt="calendário"> 2023</li>
-            <li><img src="relogio.png" alt="relógio"> 124 min</li>
+            <li><img class="estrela" src="/src/assets/estrela.png" alt="estrela"> 5.4</li>
+            <li><img class="idade" src="/src/assets/14anos.png" alt=""></li>
+            <li>2005</li>
+            <li>1 h 50 min</li>
             <li>Terror</li>
         </ul>
 
@@ -208,16 +212,18 @@
 
                 <div class="cenas">
                     <h1>Cenas</h1>
-                    <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
-                    <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
-                    <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
+                    <img class="cenas-fotos" src="/src/assets/FotosChamado/chamado2foto1.jpg" alt="Cena1">
+                    <img class="cenas-fotos" src="/src/assets/FotosChamado/chamado2foto2.jpg" alt="Cena2">
+                    <img class="cenas-fotos" src="/src/assets/FotosChamado/chamado2foto3.jpg" alt="Cena3">
+                    <img class="cenas-fotos" src="/src/assets/FotosChamado/chamado2foto4.jpg" alt="Cena4">
+                    
                 </div>
             </section>
 
             <section class="direita">
 
                 <div class="informacoes">
-                    <h1>informacoes</h1>
+                    <h1>Informações</h1>
 
                     <p>Diretor</p>
                     <h3>Hideo Nakata</h3>
@@ -231,7 +237,10 @@
 
                 <div class="trailer">
                     <h1>Trailer</h1>
-                    <video src="https://www.youtube.com/watch?v=hpb2RaPUzD8"></video>
+                    <video name="movie" controls class="trailer-chamado">
+                        <source
+                            src="/src/assets/FotosChamado/Trailers/Ochamado2Trailer.mp4"
+                            type="video/mp4" />
                 </div>
 
                 <div class="buttons">
@@ -247,11 +256,10 @@
             <div class="visao-geral">
                 <h1>Avaliações do público</h1>
                 <div class="av-esquerda">
-                    <img class="estrelas" src="" alt="estrelas">
-                    <h3>Média geral</h3>
+                    <img class="estrelas" src="/src/assets/estrelas.png" alt="estrelas">
                 </div>
                 <div class="av-direita">
-                    <h1>298</h1>
+                    <h1>78</h1>
                     <h3>Avaliações</h3>
                 </div>
             </div>
@@ -262,7 +270,6 @@
                 <h2>Comentários dos Usuários</h2>
 
                 <div class="comentario-vazio">
-                    <img src="" alt="Ícone de comentário">
                     <p>Ainda não há avaliações para este filme.<br>Seja o primeiro a compartilhar sua opinião!</p>
                 </div>
             </div>
@@ -272,18 +279,18 @@
 
     <div class="quebra">
         <div class="linha-esquerda"></div>
-        <img class="fita" src="" alt="Fita ">
         <div class="linha-direita"></div>
     </div>
 
     <!-- FILME 3 -->
 
-    <section class="Filme">
+    <section class="Filme" id="rings3">
         <h1 class="titulo-filme">Rings</h1>
         <ul>
-            <li><img src="estrela.png" alt="estrela"> 8.5</li>
-            <li><img src="calendario.png" alt="calendário"> 2023</li>
-            <li><img src="relogio.png" alt="relógio"> 124 min</li>
+            <li><img class="estrela" src="/src/assets/estrela.png" alt="estrela"> 4.5</li>
+            <li><img class="idade" src="/src/assets/14anos.png" alt=""></li>
+            <li>2017</li>
+            <li>1 h 42 min</li>
             <li>Terror</li>
         </ul>
 
@@ -314,15 +321,17 @@
 
                 <div class="cenas">
                     <h1>Cenas</h1>
-                    <img class="cenas-fotos" src="link-da-imagem-1.jpg" alt="Cena1">
-                    <img class="cenas-fotos" src="link-da-imagem-2.jpg" alt="Cena2">
-                    <img class="cenas-fotos" src="link-da-imagem-3.jpg" alt="Cena3">
+                    <img class="cenas-fotos" src="/src/assets/FotosChamado/chamado3foto1.jpg" alt="Cena1">
+                    <img class="cenas-fotos" src="/src/assets/FotosChamado/chamado3foto2.jpg" alt="Cena2">
+                    <img class="cenas-fotos" src="/src/assets/FotosChamado/chamado3foto3.jpg" alt="Cena3">
+                    <img class="cenas-fotos" src="/src/assets/FotosChamado/chamado3foto4.jpg" alt="Cena4">
+                    
                 </div>
             </section>
 
             <section class="direita">
                 <div class="informacoes">
-                    <h1>informacoes</h1>
+                    <h1>Informações</h1>
 
                     <p>Diretor</p>
                     <h3>F. Javier Gutiérrez</h3>
@@ -336,7 +345,10 @@
 
                 <div class="trailer">
                     <h1>Trailer</h1>
-                    <video src="https://www.youtube.com/watch?v=uukQ_6szDm8"></video>
+                    <video name="movie" controls class="trailer-chamado">
+                        <source
+                            src="/src/assets/FotosChamado/Trailers/Ochamado3Trailer.mp4"
+                            type="video/mp4" />
                 </div>
 
                 <div class="buttons">
@@ -352,11 +364,10 @@
             <div class="visao-geral">
                 <h1>Avaliações do público</h1>
                 <div class="av-esquerda">
-                    <img class="estrelas" src="" alt="estrelas">
-                    <h3>Média geral</h3>
+                    <img class="estrelas" src="/src/assets/estrelas.png" alt="estrelas">
                 </div>
                 <div class="av-direita">
-                    <h1>298</h1>
+                    <h1>108</h1>
                     <h3>Avaliações</h3>
                 </div>
             </div>
@@ -367,7 +378,6 @@
                 <h2>Comentários dos Usuários</h2>
 
                 <div class="comentario-vazio">
-                    <img src="" alt="Ícone de comentário">
                     <p>Ainda não há avaliações para este filme.<br>Seja o primeiro a compartilhar sua opinião!</p>
                 </div>
             </div>
@@ -375,14 +385,9 @@
         </section>
     </section>
 
-    <div class="quebra">
-        <div class="linha-esquerda"></div>
-        <img class="fita" src="" alt="Fita ">
-        <div class="linha-direita"></div>
-    </div>
 
     <!-- FILME 4 -->
-
+<!-- 
     <section class="Filme">
         <h1 class="titulo-filme">Sadako</h1>
         <ul>
@@ -475,10 +480,10 @@
             </div>
 
         </section>
-    </section>
+    </section> -->
     <footer>
         <div class="footer-esquerda">
-            <img src="" alt="Logo">
+            <img class="logo1" src="/src/assets/logotenebris1.png" alt="Logo"><h3>Tenebris</h3>
             <p>Sua plataforma definitiva para filmes de terror. Descubra os clássicos, explore novos lançamentos e
                 mergulhe
                 no mundo do sobrenatural.</p>
@@ -496,7 +501,6 @@
             <ul id="ul-nav">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Filmes</a></li>
-                <li><a href="#">Séries</a></li>
                 <li><a href="#">lançamentos</a></li>
                 <li><a href="#">Top Terror</a></li>
             </ul>
@@ -517,7 +521,7 @@
             clique
         </p>
     </footer>
-    <script src="../js/menu.js"></script>r
+    <script src="../js/menu.js"></script>
 </body>
 
 </html>
