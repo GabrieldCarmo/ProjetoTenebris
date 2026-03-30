@@ -230,12 +230,57 @@ header.scrolled {
     height: 2px;
     background-color: #820000;
 }
+.estrela {
+    height: 20px;
+}
 
-.fita {
+.estrelas {
+    height: 140px;
+}
+
+.idade{
+    width: 27px;
+
+}
+
+.cenas {
+    width: 100%;
+    text-align: center;
+}
+
+.cenas-fotos {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    display: inline-block;
+    margin: 5px;
+}
+
+
+.cenas h1 {
+    text-align: center;
+}
+
+.trailer {
+    height: 21.4rem;
+    /* width: 35rem, */
+}
+
+.trailer-panico {
+    height: 150px;
+    justify-content: center;
+}
+
+.titulo-trailer {
+    justify-content: center;
+    text-align: center;
+}
+
+/* .fita {
     width: 80px;
     height: auto;
     filter: drop-shadow(0 0 10px #820000);
-}
+} */
 
 .Filme {
     margin-bottom: 4rem;
@@ -389,8 +434,9 @@ header.scrolled {
 }
 
 .comentarios h2 {
-    color: #ffffff;
-    margin-bottom: 2rem;
+    color: #be8080;
+    text-align: center;
+    margin-top: 3rem;
 }
 
 .comentario-vazio {
@@ -404,9 +450,10 @@ header.scrolled {
 }
 
 .comentario-vazio p {
-    color: #b8b8c0;
+    color: #be8080;
     font-size: 1rem;
-    line-height: 1.5;
+    margin-top: -4rem;
+    text-align: center;
 }
 
 footer {
