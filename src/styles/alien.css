@@ -19,14 +19,13 @@
 
 .menu-box {
     position: fixed;
-    top: 80px;
+    top: 100px;
     /* abaixo do header */
-    left: 20px;
-    background-color: #0f0f0f;
-    border: 2px solid #8B0000;
-    border-radius: 8px;
-    padding: 1rem;
-    width: 200px;
+    left: 10px;
+    background-color: #0f0f0fbe;
+    border: 1px solid #73cc65;
+    border-radius: 2px;
+    width: 160px;
 
     opacity: 0;
     transform: scale(0.9);
@@ -36,26 +35,48 @@
 
 .menu-box ul {
     list-style: none;
+    
 }
+
 
 .menu-box li {
     margin: 0.8rem 0;
+    /* text-align: center; */
+    padding: 5px;
+    
 }
 
 .menu-box a {
     text-decoration: none;
-    color: white;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 1000px; 
     transition: 0.2s;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-.menu-box a:hover {
-    color: #A0001C;
+
+.menu-box li:hover{
+    background-color: #e5ffe2;
+    background-size: 1000px;
+    transition: 0.2s ease-in-out;
+    color: #007900;
+}
+
+
+.menu-box li:hover a{
+    color: #007900;
+    transition: 0.2s ease-in-out;
+    box-sizing: border-box;
 }
 
 .menu-box.ativo {
     opacity: 1;
     transform: scale(1);
     pointer-events: auto;
+    display: block;
 }
 
 body {
@@ -69,23 +90,24 @@ header {
     align-items: center;
     justify-content: center;
     gap: 15px;
-
+    backdrop-filter: blur(30px);
     padding: 20px;
-    background: rgba(11, 16, 32, 0.95);
+    /* background: rgb(0, 0, 0); */
     border-bottom: 1px solid var(--cinza-borda);
 
     position: sticky;
     top: 0;
     z-index: 999;
 
-    transition: all 0.3s ease;
+    transition: all 0.7s ease;
 }
 
 header.scrolled {
-    background: rgba(11, 16, 32, 0.1);
-    backdrop-filter: blur(8px);
+    /* background: rgba(0, 0, 0, 0); */
+    backdrop-filter: blur(100%);
+    background: #00000000;
     padding: 12px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0); */
 }
 
 .logo {

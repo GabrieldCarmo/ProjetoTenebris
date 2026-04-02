@@ -1,25 +1,26 @@
 :root {
-  --preto: #05070d;
-  --preto-secundario: #0b1020;
-  --cinza-card: #111827;
-  --cinza-borda: #1e293b;
-  --vermelho: #8B0000;
-  --vermelho-hover: #a40000;
-  --branco: #ececf0;
-  --cinza-texto: #b5b9c4;
-  --sombra: 0 10px 30px rgba(0,0,0,.6);
+    --preto: #05070d;
+    --preto-secundario: #0b1020;
+    --cinza-card: #111827;
+    --cinza-borda: #1e293b;
+    --vermelho: #8B0000;
+    --vermelho-hover: #a40000;
+    --branco: #ececf0;
+    --cinza-texto: #b5b9c4;
+    --sombra: 0 10px 30px rgba(0, 0, 0, .6);
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 .menu-box {
     position: fixed;
-    top: 80px; /* abaixo do header */
+    top: 80px;
+    /* abaixo do header */
     left: 20px;
     background-color: #0f0f0f;
     border: 2px solid #8B0000;
@@ -58,70 +59,72 @@
 }
 
 body {
-  background: var(--preto);
-  color: var(--branco);
-  line-height: 1.6;
+    background: var(--preto);
+    color: var(--branco);
+    line-height: 1.6;
 }
 
 header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 
-  padding: 20px;
-  background: rgba(11, 16, 32, 0.95);
-  border-bottom: 1px solid var(--cinza-borda);
+    padding: 20px;
+    background: rgba(11, 16, 32, 0.95);
+    border-bottom: 1px solid var(--cinza-borda);
 
-  position: sticky;
-  top: 0;
-  z-index: 999;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 
-  transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 header.scrolled {
-  background: rgba(11, 16, 32, 0.1);
-  backdrop-filter: blur(8px);        
-  padding: 12px;                    
-  border-bottom: 1px solid rgba(255,255,255,0.05);
+    background: rgba(11, 16, 32, 0.1);
+    backdrop-filter: blur(8px);
+    padding: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .logo {
-  height: 40px;
+    height: 40px;
 }
 
 .menu-hamburguer {
-  position: absolute;
-  left: 20px;
-  background: none;
-  border: none;
-  color: var(--branco);
-  font-size: 22px;
-  cursor: pointer;
+    position: absolute;
+    left: 20px;
+    background: none;
+    border: none;
+    color: var(--branco);
+    font-size: 22px;
+    cursor: pointer;
 }
 
 
 #bannerpanico h1 {
-    font-size:7rem;
+    font-size: 7rem;
     color: #820000;
     text-shadow: 2px 4px 8px rgba(247, 0, 0, 0.9);
     position: relative;
     font-family: 'Bebas Neue', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing:15px;
-    transform: scaleY(1.3); /* deixa mais alta */
+    letter-spacing: 15px;
+    transform: scaleY(1.3);
+    /* deixa mais alta */
     color: white;
     text-align: center;
 }
 
-#bannerpanico h1 span{
-    font-size:7rem;
+#bannerpanico h1 span {
+    font-size: 7rem;
     color: #820000;
     text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.9);
     position: relative;
     font-family: 'Bebas Neue', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 8px;
-    transform: scaleY(1.3); /* deixa mais alta */
+    transform: scaleY(1.3);
+    /* deixa mais alta */
     /* color: white; */
     text-align: center;
 }
@@ -230,6 +233,167 @@ header.scrolled {
     height: 2px;
     background-color: #820000;
 }
+
+#scream {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0)),
+        /* Filtro escuro */
+        url('/src/assets/FotosPanico/Panico1banner.png');
+    background-repeat: no-repeat;
+    /* Não repete a imagem */
+    background-position: center;
+    /* Centraliza a imagem */
+
+    /* background-size: rem; */
+}
+
+#scream2{
+       background-image:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0)),
+        /* Filtro escuro */
+        url('/src/assets/FotosPanico/Panico2banner.png');
+    background-repeat: no-repeat;
+    /* Não repete a imagem */
+    background-position: center;
+    /* Centraliza a imagem */
+
+    background-size: 86rem;
+} 
+
+#scream3{
+       background-image:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0)),
+        /* Filtro escuro */
+        url('/src/assets/FotosPanico/Panico3banner.jpg');
+    background-repeat: no-repeat;
+    /* Não repete a imagem */
+    background-position: center;
+    /* Centraliza a imagem */
+
+    background-size: 86rem;
+} 
+
+#scream4{
+       background-image:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0)),
+        /* Filtro escuro */
+        url('/src/assets/FotosPanico/Panico4banner.jpg');
+    background-repeat: no-repeat;
+    /* Não repete a imagem */
+    background-position: center;
+    /* Centraliza a imagem */
+
+    background-size: 76rem;
+} 
+
+#scream5{
+       background-image:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0)),
+        /* Filtro escuro */
+        url('/src/assets/FotosPanico/Panico5banner.jpg');
+    background-repeat: no-repeat;
+    /* Não repete a imagem */
+    background-position: center;
+    /* Centraliza a imagem */
+
+    background-size: 87rem;
+} 
+
+#scream6{
+       background-image:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0)),
+        /* Filtro escuro */
+        url('/src/assets/FotosPanico/Panico6banner.jpg');
+    background-repeat: no-repeat;
+    /* Não repete a imagem */
+    background-position: center;
+    /* Centraliza a imagem */
+
+    background-size: 75rem;
+} 
+
+#scream7{
+       background-image:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0)),
+        /* Filtro escuro */
+        url('/src/assets/FotosPanico/Panico7banner.jpg');
+    background-repeat: no-repeat;
+    /* Não repete a imagem */
+    background-position: center;
+    /* Centraliza a imagem */
+
+    background-size: 86rem;
+} 
+
+.quadro {
+    width: 200px;
+    flex: 0 0 auto;
+    opacity: 0.4;
+    transform: scale(0.8);
+    transition: all 0.4s ease;
+    filter: blur(2px);
+    justify-content: center;
+    width: 200px;
+    min-width: 200px;
+    /* ESSENCIAL */
+    flex: 0 0 auto;
+    /* position: relative */
+}
+
+.quadro.ativo {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+}
+
+/* container centralizado */
+.linha-tempo {
+    text-align: center;
+}
+
+.linha-tempo h1 {
+    margin: 40px 0;
+    text-align: center;
+}
+
+#linha-tempo {
+    display: flex;
+    flex-direction: row;
+    /* FORÇA horizontal */
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    transition: transform 0.5s ease;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+
+#linha-tempo::-webkit-scrollbar {
+    display: none;
+}
+
+/* botão mais bonito */
+#voltar,
+#avancar {
+    position: static;
+    /* REMOVE absolute */
+    /* background: #0f5132; */
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.container-linha-tempo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    overflow: hidden;
+}
+
+
 .estrela {
     height: 20px;
 }
@@ -238,7 +402,7 @@ header.scrolled {
     height: 140px;
 }
 
-.idade{
+.idade {
     width: 27px;
 
 }
