@@ -190,7 +190,7 @@ header.scrolled {
     top:50%;
     transform:translateY(-50%);
     
-    background:#0b7a50;
+    background:#0b7a4f00;
     color:white;
     border:none;
     font-size:28px;
@@ -278,8 +278,8 @@ header.scrolled {
     width: 48px;
     height: 48px;
     font-size: 2rem;
-    background-color: #006644;
-    color: #d0ffd0;
+    /* background-color: #006644; */
+    /* color: #d0ffd0; */
     border: none;
     border-radius: 6px;
     display: flex;
@@ -291,7 +291,8 @@ header.scrolled {
 
 #voltar:hover,
 #avancar:hover {
-    background-color: #00aa55;
+    font-size: 50px;
+
 }
 
 .quebra {

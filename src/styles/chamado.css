@@ -291,7 +291,7 @@ header.scrolled {
     width: 48px;
     height: 48px;
     font-size: 2rem;
-    background-color: #1e5082;
+    background-color: #1e508200;
     color: #ffffff;
     border: none;
     border-radius: 6px;
@@ -304,7 +304,8 @@ header.scrolled {
 
 #voltar:hover,
 #avancar:hover {
-    background-color: #2a70b0;
+    font-size: 50px;
+
 }
 
 .quebra {
