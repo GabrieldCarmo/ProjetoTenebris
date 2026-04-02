@@ -139,36 +139,34 @@
     background: var(--vermelho-hover);
   }
 
-.destaques {
+  .destaques {
     padding: 100px 20px;
     text-align: center;
-    background: linear-gradient(
-        to bottom,
+    background: linear-gradient(to bottom,
         var(--preto),
-        var(--preto-secundario)
-    );
-}
+        var(--preto-secundario));
+  }
 
-.destaques h1 {
+  .destaques h1 {
     font-size: 2.2rem;
     margin-bottom: 3rem;
-}
+  }
 
-.container-destaques-terror {
+  .container-destaques-terror {
     position: relative;
     max-width: 1200px;
     margin: auto;
     overflow: visible;
-}
+  }
 
-.filmes-destaque {
+  .filmes-destaque {
     display: flex;
     gap: 2rem;
     justify-content: center;
-}
+  }
 
-#voltar,
-#avancar {
+  #voltar,
+  #avancar {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -188,22 +186,22 @@
     cursor: pointer;
     transition: 0.3s ease;
     z-index: 10;
-}
+  }
 
-#voltar {
+  #voltar {
     left: 10px;
-}
+  }
 
-#avancar {
+  #avancar {
     right: 10px;
-}
+  }
 
-#voltar:hover,
-#avancar:hover {
+  #voltar:hover,
+  #avancar:hover {
     background: var(--vermelho);
-}
+  }
 
-.quadro {
+  .quadro {
     position: relative;
     background: var(--cinza-card);
     border-radius: 12px;
@@ -214,19 +212,19 @@
     border: 1px solid var(--cinza-borda);
     cursor: pointer;
 
-    transition: 
-        transform 0.35s ease,
-        border-color 0.35s ease,
-        box-shadow 0.35s ease;
-}
+    transition:
+      transform 0.35s ease,
+      border-color 0.35s ease,
+      box-shadow 0.35s ease;
+  }
 
-.quadro:hover {
+  .quadro:hover {
     transform: translateY(-8px) scale(1.03);
     border-color: var(--vermelho);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
-}
+  }
 
-.quadro img {
+  .quadro img {
     width: 100%;
     aspect-ratio: 2 / 3;
     object-fit: cover;
@@ -234,28 +232,28 @@
     display: block;
 
     transition: transform 0.5s ease, filter 0.5s ease;
-}
+  }
 
-.quadro:hover img {
+  .quadro:hover img {
     transform: scale(1.08);
     filter: brightness(0.8);
-}
+  }
 
-.quadro h3 {
+  .quadro h3 {
     margin: 15px;
     font-size: 1.1rem;
     transition: color 0.3s ease;
-}
+  }
 
-.quadro:hover h3 {
+  .quadro:hover h3 {
     color: var(--vermelho);
-}
+  }
 
-.quadro p {
+  .quadro p {
     color: var(--cinza-texto);
     font-size: 0.9rem;
     padding: 0 15px 15px 15px;
-}
+  }
 
 
 
