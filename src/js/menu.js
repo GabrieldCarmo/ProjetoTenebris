@@ -5,11 +5,11 @@ menuBox.classList.add("menu-box");
 
 menuBox.innerHTML = `
     <ul>
-        <li><a href="/index.html">inicio</a></li>
-        <li><a href="/src/pages/alien.html">Alien</a></li>
-        <li><a href="/src/pages/chamado.html">Chamado</a></li>
-        <li><a href="/src/pages/panico.html">Pânico</a></li>
-        <li><a href="/src/pages/sobrenos.html">Sobre Nós</a></li>
+        <li><a href="./index.html">inicio</a></li>
+        <li><a href="./src/pages/alien.html">Alien</a></li>
+        <li><a href="./src/pages/chamado.html">Chamado</a></li>
+        <li><a href="./src/pages/panico.html">Pânico</a></li>
+        <li><a href="./src/pages/sobrenos.html">Sobre Nós</a></li>
     </ul>
 `;
 
