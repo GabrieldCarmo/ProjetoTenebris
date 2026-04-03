@@ -101,11 +101,16 @@ header.scrolled {
 }
 
 .sobre {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   padding: 120px 20px;
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
   position: relative;
   transition: opacity 0.6s ease-in-out;
 
@@ -134,10 +139,29 @@ header.scrolled {
   z-index: 1;
 }
 
+.sobre-conteudo {
+  width: 100%;
+  max-width: 1100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.conteudo-esquerda {
+  flex: 1;
+  max-width: 600px;
+}
+
+.conteudo-direita {
+  display: flex;
+  align-items: center;
+}
+
 #h1-pagina-principal {
   font-size: 3rem;
   margin-bottom: 20px;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #h1-pagina-principal span {
@@ -145,10 +169,23 @@ header.scrolled {
 }
 
 #p-pagina-principal {
-  max-width: 800px;
-  margin: auto;
   color: var(--cinza-texto);
   margin-bottom: 30px;
+}
+
+#btn-pagina-principal {
+  padding: 15px 35px;
+  background: var(--vermelho);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#btn-pagina-principal:hover {
+  background: var(--vermelho-hover);
+  transform: translateY(-2px);
 }
 
 .tag {
@@ -217,24 +254,22 @@ header.scrolled {
   box-sizing: border-box;
 }
 
-/* HERO COM IMAGEM FIXA */
 .hero {
   position: relative;
   height: 100vh;
 
-  background-image: url(../assets/pp4.jpg);
+  background-image: url(./src/assets/pp4.JPG);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
-  background-attachment: fixed; 
+/*  background-attachment: fixed; */
 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* OVERLAY ESCURO */
 .hero::before {
   content: "";
   position: absolute;
@@ -246,7 +281,6 @@ header.scrolled {
   );
 }
 
-/* CONTEÚDO (fica por cima) */
 .container-conta {
   position: relative;
   z-index: 1;
@@ -256,7 +290,6 @@ header.scrolled {
   padding: 20px;
 }
 
-/* OUTRAS SECTIONS PRA TESTAR O SCROLL */
 section {
   padding: 100px 20px;
   background: white;
