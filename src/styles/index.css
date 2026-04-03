@@ -403,6 +403,10 @@ footer {
   border-top: 2px solid #cbced4;
 }
 
+.logo1{
+    width: 62px;
+}
+
 .footer-esquerda {
   max-width: 450px;
 }
