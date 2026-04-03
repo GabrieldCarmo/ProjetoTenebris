@@ -104,14 +104,19 @@
   .sobre {
     text-align: center;
     padding: 120px 20px;
-    background: radial-gradient(ellipse at center,
-        rgba(139, 0, 0, .35),
-        rgba(0, 0, 0, .95));
+      background-image: url(../assets/pp1.jpg);
+      background-size: 100rem;
+      background-position-y: center;
+      background-repeat: no-repeat;
+      filter:brightness(-1000px);
   }
+
+  
 
   #h1-pagina-principal {
     font-size: 3rem;
     margin-bottom: 20px;
+    text-shadow: 60%;
   }
 
   #h1-pagina-principal span {

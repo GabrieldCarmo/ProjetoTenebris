@@ -495,8 +495,8 @@ header.scrolled {
 .informacoes,
 .trailer {
     background-color: #0a0f0a;
-    border: 2px solid #00aa55;
-    border-radius: 8px;
+    border: 1px solid #00aa55;
+    /* border-radius: 8px; */
     padding: 1.5rem;
     margin-bottom: 2rem;
     text-align: center;
@@ -548,8 +548,8 @@ header.scrolled {
 .avaliacao-publico {
     margin-top: 2rem;
     background-color: #0a0f0a;
-    border: 2px solid #00aa55;
-    border-radius: 8px;
+    border: 1px solid #00aa55;
+    /* border-radius: 8px; */
     padding: 2rem;
 }
 
