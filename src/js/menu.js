@@ -1,30 +1,44 @@
 const menuBtn = document.getElementById("menu-hamburguer");
 
-const menuBox = document.createElement("div");
-menuBox.classList.add("menu-box");
+if (menuBtn) {
 
-menuBox.innerHTML = `
-    <ul>
-        <li><a href="/ProjetoTenebris/index.html">inicio</a></li>
-        <li><a href="/ProjetoTenebris/src/pages/alien.html">Alien</a></li>
-        <li><a href="/ProjetoTenebris/src/pages/chamado.html">Chamado</a></li>
-        <li><a href="/ProjetoTenebris/src/pages/panico.html">Pânico</a></li>
-        <li><a href="/ProjetoTenebris/src/pages/sobrenos.html">Sobre Nós</a></li>
-    </ul>
-`;
+    const menuBox = document.createElement("div");
+    menuBox.classList.add("menu-box");
 
-document.body.appendChild(menuBox);
+    // Detecta se está dentro de /src/pages
+    const isPages = window.location.pathname.includes("/src/pages/");
 
-menuBtn.addEventListener("click", (e) => {
-    e.stopPropagation(); // impede conflito com o click global
-    menuBox.classList.toggle("ativo");
-});
+    menuBox.innerHTML = isPages ? `
+            <ul>
+                <li><a href="../../index.html">inicio</a></li>
+                <li><a href="./alien.html">Alien</a></li>
+                <li><a href="./chamado.html">Chamado</a></li>
+                <li><a href="./panico.html">Pânico</a></li>
+                <li><a href="./sobrenos.html">Sobre Nós</a></li>
+            </ul>
+        ` : `
+            <ul>
+                <li><a href="./index.html">inicio</a></li>
+                <li><a href="./src/pages/alien.html">Alien</a></li>
+                <li><a href="./src/pages/chamado.html">Chamado</a></li>
+                <li><a href="./src/pages/panico.html">Pânico</a></li>
+                <li><a href="./src/pages/sobrenos.html">Sobre Nós</a></li>
+            </ul>
+        `;
 
-document.addEventListener("click", (e) => {
-    if (!menuBox.contains(e.target) && e.target !== menuBtn) {
-        menuBox.classList.remove("ativo");
-    }
-});
+    document.body.appendChild(menuBox);
+
+    menuBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        menuBox.classList.toggle("ativo");
+    });
+
+    document.addEventListener("click", (e) => {
+        if (!menuBox.contains(e.target) && e.target !== menuBtn) {
+            menuBox.classList.remove("ativo");
+        }
+    });
+}
 
 const quadros = document.querySelectorAll(".quadro");
 
@@ -33,7 +47,7 @@ const btnVoltar = document.getElementById("voltar");
 
 let indexAtual = 1;
 
-function atualizarCarousel(){
+function atualizarCarousel() {
 
     quadros.forEach(q => q.classList.remove("ativo"));
 
@@ -43,7 +57,7 @@ function atualizarCarousel(){
 
 btnAvancar.addEventListener("click", () => {
 
-    if(indexAtual < quadros.length - 1){
+    if (indexAtual < quadros.length - 1) {
         indexAtual++;
     }
 
@@ -52,7 +66,7 @@ btnAvancar.addEventListener("click", () => {
 
 btnVoltar.addEventListener("click", () => {
 
-    if(indexAtual > 0){
+    if (indexAtual > 0) {
         indexAtual--;
     }
 
