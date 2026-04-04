@@ -323,22 +323,50 @@ section {
   transition: 0.3s ease;
 }
 
-.container-atores{
+.container-atores {
   padding: 100px 20px;
   text-align: center;
   background: linear-gradient(to bottom,
       var(--preto),
       var(--preto-secundario));
+
   display: flex;
-  gap: 20px;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
-.card-atores img{
+.container-atores h1{
+  padding-bottom: 30px;
+}
+
+/* container dos atores */
+.atores-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* card */
+.card-atores {
+  text-align: center;
+}
+
+/* imagem */
+.card-atores img {
   width: 190px;
-  border: 10px;
-  border-color: #8B0000;
-  border-radius: 1600rem;
+  border-radius: 50%;
+}
+
+/* textos */
+.card-atores h3 {
+  margin-top: 10px;
+}
+
+.card-atores p {
+  color: var(--cinza-texto);
+  font-size: 0.9rem;
 }
 
 #voltar {
@@ -389,8 +417,6 @@ section {
 }
 
 /*BIA, Coda aqui oq adicionar no index*/
-
-/* ===== BLOG ===== */
 
 .container-blog {
   background: linear-gradient(to bottom,
