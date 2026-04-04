@@ -361,7 +361,7 @@ section {
 .card-blog img {
   width: 100%;
   height: 160px;
-  width: 300px; /* 🔥 altura fixa */
+  width: 300px;
   object-fit: cover;
   margin-left: -50px;
   border-radius: 15px;
@@ -448,10 +448,6 @@ section {
   font-size: 0.9rem;
   padding: 0 15px 15px;
 }
-
-/BIA, Coda aqui oq adicionar no index/
-
-/* ALGUEM FAZ ISSO FUNCIONARRRRRRRRRRRRRRRRRRRRR*/
 
 footer {
   background-color: #000510;
