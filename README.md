@@ -1,6 +1,6 @@
-# Tenebris
+# 🎬 Tenebris
 
-## Sobre o Projeto
+## 📚 Sobre o Projeto
 
 O Tenebris é um projeto web desenvolvido com foco no universo do terror, reunindo filmes, personagens e conteúdos em uma interface moderna e interativa.
 
@@ -10,7 +10,7 @@ Também será apresentado aos alunos do primeiro ano do técnico da ETEC Basilid
 
 ---
 
-## Conceito Educacional
+## 🧠 Conceito Educacional
 
 O projeto representa a aplicação real dos conhecimentos adquiridos durante o primeiro ano do curso técnico.
 
@@ -18,27 +18,27 @@ A proposta é servir como referência para novos alunos, demonstrando evolução
 
 ---
 
-## Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas
 
-### Desenvolvimento
+### 🧩 Desenvolvimento
 
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-### Design e Planejamento
+### 🎨 Design e Planejamento
 
 ![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma)
 ![Milanote](https://img.shields.io/badge/-Milanote-000000?style=flat-square)
 
-### Ferramentas
+### ⚙️ Ferramentas
 
 ![Git Bash](https://img.shields.io/badge/-Git%20Bash-000000?style=flat-square&logo=git)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
 
 ---
 
-## Equipe
+## 👥 Equipe
 
 Projeto desenvolvido por:
 
@@ -47,4 +47,3 @@ Projeto desenvolvido por:
 - Lucas Ribeiro Tomaz
 - Pedro Santos
 - Rafael Novaes Pereira
-  
