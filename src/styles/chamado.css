@@ -740,16 +740,3 @@ footer {
 .footer-esquerda p {
     margin-top: 20px;
 }
-
-
-@media (max-width: 768px) {
-    .quadro {
-        width: 150px;
-    }
-}
-
-@media (max-width: 480px) {
-    .quadro {
-        width: 120px;
-    }
-}

@@ -479,19 +479,3 @@ footer {
 .footer-esquerda p{
     margin-top: 20px;
 }
-
-
-@media (max-width: 768px) {
-    .sobrenos > h1 {
-        font-size: 2rem;
-    }
-
-    .colaborador {
-        padding: 1.5rem;
-    }
-
-    .tech {
-        width: 100%;
-        max-width: 250px;
-    }
-}
