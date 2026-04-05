@@ -71,9 +71,9 @@ header {
     gap: 15px;
 
     padding: 20px;
-    background: rgba(11, 16, 32, 0.95);
+    background: rgba(11, 16, 32, 0);
     border-bottom: 1px solid var(--cinza-borda);
-
+    backdrop-filter: blur(30px);
     position: sticky;
     top: 0;
     z-index: 999;
@@ -82,7 +82,7 @@ header {
 }
 
 header.scrolled {
-    background: rgba(11, 16, 32, 0.1);
+    background: rgba(11, 16, 32, 0);
     backdrop-filter: blur(8px);
     padding: 12px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
