@@ -165,10 +165,19 @@ header.scrolled {
     position: relative;
     font-optical-sizing: auto;
     /* font-weight: weight; */
-  font-family: "Rubik Glitch", system-ui;
+    font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
   font-weight: 400;
   font-style: normal;
 }
+
+.gloria-hallelujah-regular {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 
 

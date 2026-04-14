@@ -163,7 +163,7 @@ header.scrolled {
     width: 150px;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
-    border: 3px solid var(--vermelho);
+    transform: translateY(-15px);
     display: block;
     margin: 0 auto 1rem auto;
 
