@@ -131,7 +131,7 @@ header.scrolled {
 
 
 #bannerpanico {
-    background: url(/src/assets/FotosPanico/bannerpanico.avif);
+    background: url(../assets/FotosPanico/bannerpanico.avif);
     text-align: center;
     padding: 19rem 0;
     resize: horizontal;
@@ -239,7 +239,7 @@ header.scrolled {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0)),
         /* Filtro escuro */
-        url('/src/assets/FotosPanico/Panico1banner.png');
+        url('../assets/FotosPanico/Panico1banner.png');
     background-repeat: no-repeat;
     /* Não repete a imagem */
     background-position: center;
@@ -252,7 +252,7 @@ header.scrolled {
        background-image:
         linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0)),
         /* Filtro escuro */
-        url('/src/assets/FotosPanico/Panico2banner.png');
+        url('../assets/FotosPanico/Panico2banner.png');
     background-repeat: no-repeat;
     /* Não repete a imagem */
     background-position: center;
@@ -265,7 +265,7 @@ header.scrolled {
        background-image:
         linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0)),
         /* Filtro escuro */
-        url('/src/assets/FotosPanico/Panico3banner.jpg');
+        url('../assets/FotosPanico/Panico3banner.jpg');
     background-repeat: no-repeat;
     /* Não repete a imagem */
     background-position: center;
@@ -278,7 +278,7 @@ header.scrolled {
        background-image:
         linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0)),
         /* Filtro escuro */
-        url('/src/assets/FotosPanico/Panico4banner.jpg');
+        url('../assets/FotosPanico/Panico4banner.jpg');
     background-repeat: no-repeat;
     /* Não repete a imagem */
     background-position: center;
@@ -291,7 +291,7 @@ header.scrolled {
        background-image:
         linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0)),
         /* Filtro escuro */
-        url('/src/assets/FotosPanico/Panico5banner.jpg');
+        url('../assets/FotosPanico/Panico5banner.jpg');
     background-repeat: no-repeat;
     /* Não repete a imagem */
     background-position: center;
@@ -304,7 +304,7 @@ header.scrolled {
        background-image:
         linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0)),
         /* Filtro escuro */
-        url('/src/assets/FotosPanico/Panico6banner.jpg');
+        url('../assets/FotosPanico/Panico6banner.jpg');
     background-repeat: no-repeat;
     /* Não repete a imagem */
     background-position: center;
@@ -317,7 +317,7 @@ header.scrolled {
        background-image:
         linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0)),
         /* Filtro escuro */
-        url('/src/assets/FotosPanico/Panico7banner.jpg');
+        url('../assets/FotosPanico/Panico7banner.jpg');
     background-repeat: no-repeat;
     /* Não repete a imagem */
     background-position: center;
