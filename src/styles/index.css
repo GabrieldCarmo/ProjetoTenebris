@@ -596,3 +596,127 @@ footer {
 .footer-esquerda p {
   margin-top: 20px;
 }
+
+/* ===================== RESPONSIVIDADE ===================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+
+  .sobre-conteudo {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .conteudo-direita {
+    justify-content: center;
+  }
+
+  #h1-pagina-principal {
+    font-size: 2.2rem;
+  }
+
+  .filmes-destaque {
+    flex-wrap: wrap;
+  }
+
+  .container-blog {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 80px 30px;
+  }
+
+  .card-blog {
+    width: 100%;
+  }
+
+  .linha {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  header {
+    justify-content: center;
+  }
+
+  .menu-hamburguer {
+    font-size: 20px;
+  }
+
+  .sobre {
+    padding: 80px 20px;
+    height: auto;
+    min-height: auto;
+  }
+
+  #h1-pagina-principal {
+    font-size: 1.8rem;
+  }
+
+  #p-pagina-principal {
+    font-size: 0.95rem;
+  }
+
+  #btn-pagina-principal {
+    width: 100%;
+  }
+
+  .filmes-destaque {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quadro {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .atores-grid {
+    gap: 30px;
+  }
+
+  .card-atores img {
+    width: 140px;
+  }
+
+  .container-blog {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .footer-esquerda,
+  .footer-centro,
+  .footer-direita {
+    max-width: 100%;
+  }
+
+  .linha {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+
+  #h1-pagina-principal {
+    font-size: 1.5rem;
+  }
+
+  .logo {
+    height: 35px;
+  }
+
+  .card-atores img {
+    width: 120px;
+  }
+
+  .hero {
+    background-attachment: scroll;
+  }
+
+}

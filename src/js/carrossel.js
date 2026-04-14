@@ -8,19 +8,22 @@ const conteudos = [
         titulo: 'Bem-vindo ao <span>Tenebris</span>',
         descricao: 'Tenebris é o site ideal para você que é o fã número um das maiores franquias de terror do cinema. Explore o gênero cinematográfico e descubra seus maiores medos do universo do terror psicológico. Selecionamos o melhor dos classicos sobrenaturais, suspense e psicológicos com informações devidamente analisadas com avaliações da comunidade.',
         botao: 'Explorar Catálogo',
-        imagem: 'url("./src/assets/pp1.jpg")'
+        imagem: 'url("./src/assets/pp1.jpg")',
+        link: '#destaques'
     },
     {
         titulo: 'Quer descobrir mais sobre o terror?',
         descricao: 'É um amante dos filmes e franquias do terror? Junte-se ao clube Tenebris e comente sobre os seus filmes favoritos!',
         botao: 'Criar uma conta',
-        imagem: 'url("./src/assets/pp2.jpg")'
+        imagem: 'url("./src/assets/pp2.jpg")',
+        link: '#destaques'
     },
     {
         titulo: 'Destaques do terror em premiações',
-        descricao: 'Descubra quais foram os filmes de terror mais premiados e sua relevância para o cinema mundial!',
+        descricao: 'Por trás dos filmes mais premiados do terror, existem histórias que ninguém ousa contar. Leia no blog.',
         botao: 'Saiba Mais',
-        imagem: 'url("./src/assets/pp3.jpg")'
+        imagem: 'url("./src/assets/pp3.jpg")',
+        link: '#container-blog'
     }
 ];
 
@@ -56,3 +59,15 @@ function trocarConteudo() {
 setInterval(trocarConteudo, 4000);
 
 aplicarConteudo();
+
+botao.addEventListener("click", () => {
+    const destino = conteudos[index].link;
+
+    if (destino.startsWith("#")) {
+        document.querySelector(destino).scrollIntoView({
+            behavior: "smooth"
+        });
+    } else {
+        window.location.href = destino;
+    }
+});
