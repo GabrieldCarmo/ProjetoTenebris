@@ -134,7 +134,7 @@ header.scrolled {
 }
 
 #bannerchamado {
-    background: url(/src/assets/FotosChamado/chamadobannerprincipal.jpg);
+    background: url(../assets/FotosChamado/chamadobannerprincipal.jpg);
     resize: horizontal;
     background-repeat: no-repeat;
     background-position: center;
@@ -341,7 +341,7 @@ header.scrolled {
         linear-gradient(to top,
             rgba(0, 0, 0, 0.09) 0%,
             rgba(0, 20, 40, 0.697) 30%),
-        url(/src/assets/FotosChamado/bannerchamado1.jpg);
+        url(../assets/FotosChamado/bannerchamado1.jpg);
     background-repeat: no-repeat;
     /* Não repete a imagem */
     background-position: center;
@@ -355,7 +355,7 @@ header.scrolled {
         linear-gradient(to top,
             rgba(0, 0, 0, 0.09) 0%,
             rgba(0, 20, 40, 0.697) 30%),
-        url(/src/assets/FotosChamado/bannerchamado2.jpg);
+        url(../assets/FotosChamado/bannerchamado2.jpg);
     background-repeat: no-repeat;
     /* Não repete a imagem */
     background-position: center;
@@ -369,7 +369,7 @@ header.scrolled {
         linear-gradient(to top,
             rgba(0, 0, 0, 0.09) 0%,
             rgba(0, 20, 40, 0.697) 30%),
-        url(/src/assets/FotosChamado/bannerchamado3.jpg);
+        url(../assets/FotosChamado/bannerchamado3.jpg);
     background-repeat: no-repeat;
     /* Não repete a imagem */
     background-position: center;
