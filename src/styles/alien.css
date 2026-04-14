@@ -221,7 +221,6 @@ header.scrolled {
     transition:all 0.4s ease;
 }
 
-/* cards não ativos */
 .quadro{
     opacity:0.4;
     filter:blur(3px);
@@ -331,51 +330,43 @@ header.scrolled {
 }
 
 #alien1979 {
-    background: url(/src/assets/FotosAlien/alienbanner1.jpg);
+    background: url(../assets/FotosAlien/alienbanner1.jpg);
     background-repeat: no-repeat;
-    /* Não repete a imagem */
     background-position: center;
-    /* Centraliza a imagem */
     background-size: cover;
 }
 
 #aliens {
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), /* Filtro escuro */
-    url('/src/assets/FotosAlien/aliensbanner.jpg');
+    url('../assets/FotosAlien/aliensbanner.jpg');
     background-repeat: no-repeat;
-    /* Não repete a imagem */
     background-position: center;
-    /* Centraliza a imagem */
     background-size: cover; 
 }
 
 #alien3{
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), /* Filtro escuro */
-    url('/src/assets/FotosAlien/alien3banner.jpg');
+    url('../assets/FotosAlien/alien3banner.jpg');
     background-repeat: no-repeat;
-    /* Não repete a imagem */
     background-position: center;
-    /* Centraliza a imagem */
     background-size: cover; 
 }
 
 #alienRessurection{
    background-image: 
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Filtro escuro */
-    url('/src/assets/FotosAlien/alien4banner.jpg');
+    url('../assets/FotosAlien/alien4banner.jpg');
     background-repeat: no-repeat;
-    /* Não repete a imagem */
     background-position: center;
-    /* Centraliza a imagem */
     background-size: cover;  
 }
 
 #prometheus{
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), /* Filtro escuro */
-    url('/src/assets/FotosAlien/Prometheus.jpg');
+    url('../assets/FotosAlien/Prometheus.jpg');
     background-repeat: no-repeat;
     /* Não repete a imagem */
     background-position: center;
@@ -386,7 +377,7 @@ header.scrolled {
 #covenant{
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), /* Filtro escuro */
-    url('/src/assets/FotosAlien/alien1');
+    url('../assets/FotosAlien/alien1');
     background-repeat: no-repeat;
     /* Não repete a imagem */
     background-position: center;
@@ -397,7 +388,7 @@ header.scrolled {
 #romulus{
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), /* Filtro escuro */
-    url('/src/assets/FotosAlien/bannerromulus.jpg');
+    url('../assets/FotosAlien/bannerromulus.jpg');
     background-repeat: no-repeat;
     /* Não repete a imagem */
     background-position: center;
@@ -434,7 +425,7 @@ header.scrolled {
 }
 
 #banneralien {
-    background: url(/src/assets/FotosAlien/alienbanner.jpg);
+    background: url(../assets/FotosAlien/alienbanner.jpg);
     resize: horizontal;
     background-repeat: no-repeat;
     background-position: center;
