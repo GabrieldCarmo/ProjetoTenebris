@@ -597,42 +597,6 @@ footer {
   margin-top: 20px;
 }
 
-/* ===================== RESPONSIVIDADE ===================== */
-
-/* Tablets */
-@media (max-width: 1024px) {
-
-  .sobre-conteudo {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .conteudo-direita {
-    justify-content: center;
-  }
-
-  #h1-pagina-principal {
-    font-size: 2.2rem;
-  }
-
-  .filmes-destaque {
-    flex-wrap: wrap;
-  }
-
-  .container-blog {
-    grid-template-columns: repeat(2, 1fr);
-    padding: 80px 30px;
-  }
-
-  .card-blog {
-    width: 100%;
-  }
-
-  .linha {
-    width: 100%;
-  }
-}
-
 @media (max-width: 768px) {
 
   header {
@@ -651,10 +615,12 @@ footer {
 
   #h1-pagina-principal {
     font-size: 1.8rem;
+    text-align: center;
   }
 
   #p-pagina-principal {
     font-size: 0.95rem;
+    text-align: center;
   }
 
   #btn-pagina-principal {
@@ -662,17 +628,27 @@ footer {
   }
 
   .filmes-destaque {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
   }
 
   .quadro {
     width: 90%;
-    max-width: 300px;
+    max-width: 320px;
   }
 
   .atores-grid {
     gap: 30px;
+  }
+
+  .card-atores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .card-atores img {
@@ -680,8 +656,16 @@ footer {
   }
 
   .container-blog {
+    display: grid;
     grid-template-columns: 1fr;
     padding: 60px 20px;
+    gap: 30px;
+    justify-items: center;
+  }
+
+  .card-blog {
+    width: 100%;
+    max-width: 350px;
   }
 
   footer {
