@@ -30,9 +30,9 @@ header {
   gap: 15px;
 
   padding: 20px;
-  background: rgba(11, 16, 32, 0.95);
+  background: rgba(11, 16, 32, 0);
   border-bottom: 1px solid var(--cinza-borda);
-
+  backdrop-filter: blur(30px);
   position: sticky;
   top: 0;
   z-index: 999;
@@ -41,8 +41,8 @@ header {
 }
 
 header.scrolled {
-  background: rgba(11, 16, 32, 0.8);
-  backdrop-filter: blur(10px);
+  background: #00000000;
+  backdrop-filter: blur(100%);
   padding: 12px;
 }
 
@@ -263,7 +263,7 @@ header.scrolled {
   background-position: center;
   background-repeat: no-repeat;
 
-/*  background-attachment: fixed; */
+ background-attachment: fixed;
 
   display: flex;
   align-items: center;

@@ -93,9 +93,9 @@ header {
     gap: 15px;
 
     padding: 20px;
-    background: rgba(11, 16, 32, 0.95);
+    background: rgba(11, 16, 32, 0);
     border-bottom: 1px solid var(--cinza-borda);
-
+    backdrop-filter: blur(30px);
     position: sticky;
     top: 0;
     z-index: 999;
@@ -165,10 +165,19 @@ header.scrolled {
     position: relative;
     font-optical-sizing: auto;
     /* font-weight: weight; */
-  font-family: "Rubik Glitch", system-ui;
+    font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
   font-weight: 400;
   font-style: normal;
 }
+
+.gloria-hallelujah-regular {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 
 
