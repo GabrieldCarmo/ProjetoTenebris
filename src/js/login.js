@@ -1,4 +1,4 @@
-function abrirLogin() {
+window.abrirLogin = function () {
   Swal.fire({
     title: '<span style="color:#ececf0;">Entrar no Tenebris</span>',
     

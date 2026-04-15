@@ -10,7 +10,7 @@ if (menuBtn) {
 
     menuBox.innerHTML = isPages ? `
             <ul>
-                <li><a href="../../index.html">inicio</a></li>
+                <li><a href="../../index.html">Inicio</a></li>
                 <li><a href="./alien.html">Alien</a></li>
                 <li><a href="./chamado.html">Chamado</a></li>
                 <li><a href="./panico.html">Pânico</a></li>
@@ -18,7 +18,7 @@ if (menuBtn) {
             </ul>
         ` : `
             <ul>
-                <li><a href="./index.html">inicio</a></li>
+                <li><a href="./index.html">Inicio</a></li>
                 <li><a href="./src/pages/alien.html">Alien</a></li>
                 <li><a href="./src/pages/chamado.html">Chamado</a></li>
                 <li><a href="./src/pages/panico.html">Pânico</a></li>

@@ -19,14 +19,13 @@
 
 .menu-box {
     position: fixed;
-    top: 80px;
+    top: 100px;
     /* abaixo do header */
-    left: 20px;
-    background-color: #0f0f0f;
-    border: 2px solid #8B0000;
-    border-radius: 8px;
-    padding: 1rem;
-    width: 200px;
+    left: 10px;
+    background-color: #0f0f0fbe;
+    border: 1px solid #860202;
+    border-radius: 2px;
+    width: 160px;
 
     opacity: 0;
     transform: scale(0.9);
@@ -36,26 +35,48 @@
 
 .menu-box ul {
     list-style: none;
+    
 }
+
 
 .menu-box li {
     margin: 0.8rem 0;
+    /* text-align: center; */
+    padding: 5px;
+    
 }
 
 .menu-box a {
     text-decoration: none;
-    color: white;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 1000px; 
     transition: 0.2s;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-.menu-box a:hover {
-    color: #A0001C;
+
+.menu-box li:hover{
+    background-color: #640000;
+    background-size: 1000px;
+    transition: 0.2s ease-in-out;
+    /* color: #22539b; */
+}
+
+
+.menu-box li:hover a{
+    color: #ffb9b9;
+    transition: 0.2s ease-in-out;
+    box-sizing: border-box;
 }
 
 .menu-box.ativo {
     opacity: 1;
     transform: scale(1);
     pointer-events: auto;
+    display: block;
 }
 
 body {
@@ -140,6 +161,8 @@ header.scrolled {
     background-size: 117rem;
     opacity: 0.3;
 }
+
+
 
 
 .linha-tempo {
