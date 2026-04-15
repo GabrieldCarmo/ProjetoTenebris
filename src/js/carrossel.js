@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const destino = conteudos[index].link;
 
         if (destino === "login") {
-            if (typeof abrirLogin === "function()") {
+            if (typeof abrirLogin === "function") {
                 abrirLogin();
             }
             return;
