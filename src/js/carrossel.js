@@ -16,9 +16,9 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             titulo: 'Quer descobrir mais sobre o terror?',
             descricao: 'Junte-se ao clube Tenebris e comente sobre os seus filmes favoritos!',
-            botao: 'Criar uma conta',
+            botao: 'Entrar no Clube',
             imagem: 'url("./src/assets/pp2.jpg")',
-            link: '#destaques'
+            link: 'login'
         },
         {
             titulo: 'Destaques do terror em premiações',
@@ -63,6 +63,13 @@ document.addEventListener("DOMContentLoaded", () => {
     botao.addEventListener("click", () => {
         const destino = conteudos[index].link;
 
+        if (destino === "login") {
+            if (typeof abrirLogin === "function") {
+                abrirLogin();
+            }
+            return;
+        }
+
         if (destino.startsWith("#")) {
             const elemento = document.querySelector(destino);
 
@@ -71,8 +78,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     behavior: "smooth",
                     block: "start"
                 });
-            } else {
-                console.warn("Elemento não encontrado:", destino);
             }
         } else {
             window.location.href = destino;
